@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Software &#8211; nmbayu76</title>
+	<atom:link href="https://nmbayu.github.io/wordpress/category/software/feed/" rel="self" type="application/rss+xml" />
+	<link>http://nmbayu.github.io/wordpress/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Sun, 11 Oct 2020 00:16:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6.2</generator>
+	<item>
+		<title>Cara Menggunakan Ventoy</title>
+		<link>https://nmbayu.github.io/wordpress/2020/10/11/cara-menggunakan-ventoy/</link>
+					<comments>https://nmbayu.github.io/wordpress/2020/10/11/cara-menggunakan-ventoy/#respond</comments>
+		
+		<dc:creator><![CDATA[nmbayu]]></dc:creator>
+		<pubDate>Sun, 11 Oct 2020 00:16:15 +0000</pubDate>
+				<category><![CDATA[Komputer]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Teknologi]]></category>
+		<guid isPermaLink="false">https://nmbayu76.eu.org/?p=1246</guid>
+
+					<description><![CDATA[Ventoy adalah aplikasi booting Sistem Operasi lewat flashdisk yang sangat praktis. Kita tak perlu memformat flashdisk kita setiap kita akan memasukan ISO OS atau Distro, untuk keperluan live booting dari flashdisk, dengannya kita hanya perlu sekali format, dan setelah itu kita bisa langsung menambahkan ISO pada flasdisk kita. ISO tersebut bukan hanya dari satu Sistem &#8230;<p class="read-more"> <a class="" href="https://nmbayu.github.io/wordpress/2020/10/11/cara-menggunakan-ventoy/"> <span class="screen-reader-text">Cara Menggunakan Ventoy</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[<p style="text-align: justify;"><a href="https://www.ventoy.net/en/index.html">Ventoy</a> adalah aplikasi booting Sistem Operasi lewat flashdisk yang sangat praktis. Kita tak perlu memformat flashdisk kita setiap kita akan memasukan ISO OS atau Distro, untuk keperluan live booting dari flashdisk, dengannya kita hanya perlu sekali format, dan setelah itu kita bisa langsung menambahkan ISO pada flasdisk kita. ISO tersebut bukan hanya dari satu Sistem Operasi, tapi bisa kita tambah berapa pun ISO sistem operasi yang kita mau, tergantung dari kapasitas flashdisk yang kita gunakan, serta kita dapat menghapus salah satu ISO yang sudah tidak kita gunakan lagi. Dan satu lagi Ventoy adalah aplikasi Open Source, jadi gratis untuk kita gunakan. Serta Ventoy sudah support UEFI atau Legacy,dan partisi MBR atau GPT. Dan juga Ventoy support penginstalan Sistem Operasi ke PC atau laptop kita. Ventoy bisa di unduh di link ini : https://www.ventoy.net/en/download.html</p>
+<p style="text-align: justify;">Adapun cara menggunakannya adalah berikut ini:</p>
+<p><strong>1.  Windows</strong></p>
+<p style="text-align: justify;">Di Windows kita cukup dengan hanya mendownload aplikasi Ventoy yang berbasis Windows, ekstrak terus klik file exe nya, Ventoy akan jalan automatis serta mendetek flashdisk kita. Lalu kita tinggal klik install, dan setelah itu taruh file-file ISO yang mau kita gunakan ke flashdisk.</p>
+<p><img loading="lazy" class="aligncenter wp-image-1247 size-full" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/ventoy-windows-1.png" alt="" width="434" height="304" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/ventoy-windows-1.png 434w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/ventoy-windows-1-300x210.png 300w" sizes="(max-width: 434px) 100vw, 434px" /></p>
+<p><strong>2. Linux</strong></p>
+<p>Untuk di linux, cara menggunakannya berbasis teks, yang dijalankan melalui terminal.</p>
+<p>Caranya cari dimana flashdisk kamu berada dengan perintah :</p>
+<p>$ sudo fdisk -l</p>
+<p>nanti keluar info flashdisk kita. contoh :</p>
+<p>Disk /dev/sdb: 1,95 GiB, 2095054848 bytes, 4091904 sectors<br />
+Disk model: Flash Disk<br />
+Units: sectors of 1 * 512 = 512 bytes<br />
+Sector size (logical/physical): 512 bytes / 512 bytes<br />
+I/O size (minimum/optimal): 512 bytes / 512 bytes<br />
+Disklabel type: dos<br />
+Disk identifier: 0x0498fd05</p>
+<p>Bisa dilihat disitu bahwa flashdisk berada di <strong>/dev/sdb</strong></p>
+<p>Setelah di ketahui yang mana flashdisk kita maka kita, kita masuk ke folder ventoy yang telah kita download dan ekstrak, di dalam folder tersebut kita klik kanan, terus open terminal here.</p>
+<p><img loading="lazy" class="aligncenter wp-image-1249 size-large" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/Screenshot_20201011_073052-1-1024x576.png" alt="" width="1024" height="576" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/Screenshot_20201011_073052-1-1024x576.png 1024w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/Screenshot_20201011_073052-1-300x169.png 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/Screenshot_20201011_073052-1-768x432.png 768w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/Screenshot_20201011_073052-1.png 1366w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p>Terus ketik perintah :</p>
+<p>$ sudo sh Ventoy2Disk.sh -I /dev/sdb</p>
+<p>akan keluar seperti contoh dibawah ini:</p>
+<p>**********************************************<br />
+Ventoy: 1.0.22<br />
+longpanda admin@ventoy.net<br />
+https://www.ventoy.net<br />
+**********************************************</p>
+<p>Disk : /dev/sdb<br />
+Model: Generic Flash Disk (scsi)<br />
+Size : 1 GB<br />
+Style: MBR</p>
+<p>Attention:<br />
+You will install Ventoy to /dev/sdb.<br />
+All the data on the disk /dev/sdb will be lost!!!</p>
+<p>Continue? (y/n) y</p>
+<p>All the data on the disk /dev/sdb will be lost!!!<br />
+Double-check. Continue? (y/n) y</p>
+<p>Create partitions on /dev/sdb by parted in MBR style &#8230;<br />
+Done<br />
+mkfs on disk partitions &#8230;<br />
+create efi fat fs /dev/sdb2 &#8230;<br />
+mkfs.fat 4.1 (2017-01-24)<br />
+success<br />
+mkexfatfs 1.3.0<br />
+Creating&#8230; done.<br />
+Flushing&#8230; done.<br />
+File system created successfully.<br />
+writing data to disk &#8230;<br />
+sync data &#8230;<br />
+esp partition processing &#8230;</p>
+<p>Install Ventoy to /dev/sdb successfully finished.</p>
+<p>Setelah itu selesai kita bisa menaruh file-file ISO yang kita akan gunakan untuk booting live dari flashdisk.</p>
+<p><img loading="lazy" class="aligncenter wp-image-1252 size-large" src="https://nmbayu76.eu.org/wp-content/uploads/2020/10/IMG_20201009_202246-1024x759.jpg" alt="" width="1024" height="759" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://nmbayu.github.io/wordpress/2020/10/11/cara-menggunakan-ventoy/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>5 Distro Linux Yang Cocok Untuk Game</title>
+		<link>https://nmbayu.github.io/wordpress/2020/10/03/5-distro-linux-yang-cocok-untuk-game/</link>
+					<comments>https://nmbayu.github.io/wordpress/2020/10/03/5-distro-linux-yang-cocok-untuk-game/#respond</comments>
+		
+		<dc:creator><![CDATA[nmbayu]]></dc:creator>
+		<pubDate>Sat, 03 Oct 2020 01:49:12 +0000</pubDate>
+				<category><![CDATA[Komputer]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Teknologi]]></category>
+		<guid isPermaLink="false">https://nmbayu76.eu.org/?p=1225</guid>
+
+					<description><![CDATA[1. Steam OS Mari kita mulai&#160; dengan Steam OS. Ini adalah salah satu distro game terpopuler saat ini. Ini karena ini dikembangkan dan di maintenant oleh Valve. Berbasis pada OS Debian 8 dan menggunakan lingkungan desktop GNOME. Untuk membuatnya nyaman bagi para gamer, ini mendukung berbagai jenis joystick, gamepad, dan kartu grafis setelah pemasangan. Anda &#8230;<p class="read-more"> <a class="" href="https://nmbayu.github.io/wordpress/2020/10/03/5-distro-linux-yang-cocok-untuk-game/"> <span class="screen-reader-text">5 Distro Linux Yang Cocok Untuk Game</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[<p><strong>1.<a href="https://store.steampowered.com/steamos/"> Steam OS</a></strong></p>
+<p style="text-align: justify;">Mari kita mulai&nbsp; dengan Steam OS. Ini adalah salah satu distro game terpopuler saat ini. Ini karena ini dikembangkan dan di maintenant oleh Valve.</p>
+<p style="text-align: justify;">Berbasis pada OS Debian 8 dan menggunakan lingkungan desktop GNOME. Untuk membuatnya nyaman bagi para gamer, ini mendukung berbagai jenis joystick, gamepad, dan kartu grafis setelah pemasangan. Anda dapat melanjutkan dan menginstal driver untuk perangkat keras Anda secara manual jika tidak didukung.</p>
+<p style="text-align: justify;">Menginstal Steam OS sudah diinstal sebelumnya dengan Steam dan banyak game dari Steam Store. Semuanya dirancang dan disempurnakan dengan mempertimbangkan game, jadi Anda tidak perlu menginstal apa pun untuk bermain game di Steam.</p>
+<p style="text-align: justify;">Sayangnya, ini tidak disarankan jika Anda memiliki PC lama karena persyaratan perangkat keras yang tinggi. Namun bagi penggemar game, hal tersebut lumrah, mengingat game &#8211; game masa kini yang memang membutuhkan hardware yang lebih baru dan spesifikasi yang tinggi.</p>
+<p><a href="https://store.steampowered.com/steamos/"><img loading="lazy" class="aligncenter wp-image-1227 size-large" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/steamos-1-1024x640.png" alt="" width="1024" height="640" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/steamos-1-1024x640.png 1024w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/steamos-1-300x188.png 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/steamos-1-768x480.png 768w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/steamos-1.png 1600w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p><strong>2. <a href="https://ualinux.com/en/ubuntu-gamepack">Ubuntu GamePack</a></strong></p>
+<p style="text-align: justify;">Distro Linux lain adalah Ubuntu GamePack. Ini bukan distro Ubuntu biasa tetapi lebih berbasis pada Ubuntu.</p>
+<p style="text-align: justify;">Hal tentang Ubuntu GamePack tidak memiliki game yang diinstal sebelumnya seperti Steam OS. Namun, ini sudah diinstal sebelumnya dengan klien Steam, Wine, PlayOnLinux, dan Lutris. Ini seperti persimpangan jalan tempat game di Linux, Windows, Konsol, dan Steam bisa dimainkan.</p>
+<p style="text-align: justify;">Ini membuatnya menjadi OS hybrid dalam arti tertentu, terutama karena ini juga mendukung Oracle Java dan Adobe Flash. Ini berarti bermain game online juga dimungkinkan. Faktanya, ada lebih dari 6 ribu game Linux dan Windows yang dijamin akan diluncurkan di Ubuntu GamePack.</p>
+<p style="text-align: justify;">Jika Anda pernah mencoba Ubuntu sebelumnya dan merasa nyaman dengannya, gunakan distro ini.</p>
+<p style="text-align: justify;"><a href="https://ualinux.com/en/ubuntu-gamepack"><img loading="lazy" class="aligncenter wp-image-1228 " src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/ubuntugamepack-1.jpg" alt="" width="888" height="666" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/ubuntugamepack-1.jpg 640w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/ubuntugamepack-1-300x225.jpg 300w" sizes="(max-width: 888px) 100vw, 888px" /></a></p>
+<p><strong>3. <a href="https://labs.fedoraproject.org/en/games/">Fedora Games Spin</a></strong></p>
+<p>Fedora Games Spin&nbsp; distro dirancang untuk para gamer. Fakta bahwa ada ribuan game yang sudah diinstal didalam distro ini dengan tools untuk menginstal game yang lebih banyak membuatnya layak untuk di coba.</p>
+<p>Game yang sudah diinstal di distro berkisar dari First Person, Real Time Strategy, dan banyak lagi. Semuanya tersedia untuk menunjang kegiatan bergame anda.</p>
+<p>Tidak seperti kebanyakan distro Linux, ini cepat, ringan, dan stabil.</p>
+<p>Jika anda masih ingin memiliki game PlayOnLinux, Wine, atau Steam, Anda harus menginstalnya secara manual karena tidak diinstal sebelumnya secara default. Selain itu, Anda juga perlu menginstal driver baru karena tidak disertakan dengan instalasi.</p>
+<p>Jika Anda mencari distro Linux game dan merasa nyaman dengan lingkungan desktop XFCE, ini cocok untuk Anda.</p>
+<p><a href="https://labs.fedoraproject.org/en/games/"><img loading="lazy" class="aligncenter wp-image-1229 size-full" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/fedoragamesspin-1.jpg" alt="" width="1280" height="720"></a></p>
+<p><strong>4. <a href="https://sparkylinux.org/tag/game/">SparkyLinux &#8211; Gameover Edition</a></strong></p>
+<p style="text-align: justify;">Distro ini sudah memiliki banyak sekali game pra-instal (sudah terintall di system) yang dapat Anda mainkan, tetapi program APTus Gamer menawarkan Anda lebih banyak opsi untuk bermain. Ini berisi daftar emulator yang dapat Anda instal di sistem Anda. Namun, jika Anda ingin bermain game di Steam, PlayOnLinux, atau Wine, Anda harus menginstalnya secara manual karena game-game tersebut belum terpasang sebelumnya.</p>
+<p style="text-align: justify;">Secara keseluruhan, jika Anda adalah seorang gamer yang rajin bermain game dengan emulator, Anda bisa menginstal SparkyLinux &#8211; edisi Gameover.</p>
+<p><a href="https://sparkylinux.org/sparkylinux-4-3-special-editions/"><img loading="lazy" class="aligncenter wp-image-1232 " src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/sparky-gameover-1-1.png" alt="" width="913" height="684" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/sparky-gameover-1-1.png 800w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/sparky-gameover-1-1-300x225.png 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/sparky-gameover-1-1-768x575.png 768w" sizes="(max-width: 913px) 100vw, 913px" /></a></p>
+<p><strong>5. <a href="https://sourceforge.net/projects/mgame/">Manjaro Gaming Edition</a></strong></p>
+<p style="text-align: justify;">Sebenarnya Manjaro Gaming Edition ini adalah Distro unofficial (tidak resmi) berbasis Manjaro, makanya tidak ditemukan di website resmi Manjaro. Manjaro Gaming Edition didedikasikan untuk para gamer yang cenderung membuat konten. Kami dapat mengatakan bahwa ini untuk para gamer yang menyukai pembuatan konten karena ini sudah diinstal dengan tools untuk membuat konten.</p>
+<p style="text-align: justify;">Beberapa di antaranya termasuk Audacity, aplikasi streaming, alat tangkapan layar, perangkat lunak chatting, dan banyak lagi.</p>
+<p style="text-align: justify;">Salah satu hal yang menjadikan Manjaro OS yang harus Anda pertimbangkan adalah kenyataan bahwa ini sudah diinstal dengan driver kartu grafis populer. Mereka tidak hanya diperbarui secara berkala tetapi dapat dioptimalkan untuk pengalaman bermain game yang lebih baik.</p>
+<p style="text-align: justify;">Ini juga sudah diinstal dengan emulator seperti Dolphin, DOSbox, FCEUX, Kega Fusion, PCSX, PCSX2, PPSSPP, RetroArch, Stella, VBA-M, Yabause, dan ZSNES. Jika Anda ingin menikmati pengalaman bermain game Anda di emulator ini, Manjaro Gaming Edition akan sempurna.</p>
+<p style="text-align: justify;">Satu-satunya masalah dengan distro ini adalah kenyataan bahwa ini adalah distro berbasis Linux Arch. Jika Anda ingin bermain game uap, Anda harus menginstal klien Steam secara manual terlebih dahulu. Tetapi karena klien Steam tidak didukung oleh Arch, akan ada masalah di sana-sini.</p>
+<p style="text-align: justify;">Secara umum, gamer yang menyukai kreasi konten kemungkinan besar akan cocok dengan anda.</p>
+<p><img loading="lazy" class="aligncenter wp-image-1234 size-large" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/manjarogamingedition-1-1024x576.png" alt="" width="1024" height="576" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/manjarogamingedition-1-1024x576.png 1024w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/manjarogamingedition-1-300x169.png 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/manjarogamingedition-1-768x432.png 768w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/manjarogamingedition-1.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p>Memilih distro Linux terbaik untuk bermain game mungkin tampak menantang, tetapi memeriksa ulasan seperti ini akan memberi anda pemahaman yang lebih dalam tentang distro mana yang cocok untuk kebutuhan game anda.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://nmbayu.github.io/wordpress/2020/10/03/5-distro-linux-yang-cocok-untuk-game/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Link Download Firmware Redmi 8A Pro</title>
+		<link>https://nmbayu.github.io/wordpress/2020/07/23/link-download-firmware-redmi-8a-pro/</link>
+					<comments>https://nmbayu.github.io/wordpress/2020/07/23/link-download-firmware-redmi-8a-pro/#respond</comments>
+		
+		<dc:creator><![CDATA[nmbayu]]></dc:creator>
+		<pubDate>Thu, 23 Jul 2020 01:34:21 +0000</pubDate>
+				<category><![CDATA[Software]]></category>
+		<guid isPermaLink="false">https://nmbayu76.eu.org/?p=1194</guid>
+
+					<description><![CDATA[Berikut link download firmware Redmi 8A Pro MIUI V 11.0.3.0 Recovery : &#8211; Fastboot : http://bigota.d.miui.com/V11.0.3.0.PCQIDXM/olivewood_id_global_images_V11.0.3.0.PCQIDXM_20200402.0000.00_9.0_global_de282d485a.tgz MIUI V 11.0.4.0 Recovery : https://bigota.d.miui.com/V11.0.4.0.PCQIDXM/miui_OLIVEWOODIDGlobal_V11.0.4.0.PCQIDXM_45b4527e41_9.0.zip Fastboot : https://bigota.d.miui.com/V11.0.4.0.PCQIDXM/olivewood_id_global_images_V11.0.4.0.PCQIDXM_20200611.0000.00_9.0_global_fe2832ecd6.tgz]]></description>
+										<content:encoded><![CDATA[
+<p>Berikut link download firmware Redmi 8A Pro</p>
+
+
+
+<p><strong>MIUI V 11.0.3.0</strong></p>
+
+
+
+<p>Recovery : &#8211;</p>
+
+
+
+<p>Fastboot :</p>
+
+
+
+<p><a href="http://bigota.d.miui.com/V11.0.3.0.PCQIDXM/olivewood_id_global_images_V11.0.3.0.PCQIDXM_20200402.0000.00_9.0_global_de282d485a.tgz">http://bigota.d.miui.com/V11.0.3.0.PCQIDXM/olivewood_id_global_images_V11.0.3.0.PCQIDXM_20200402.0000.00_9.0_global_de282d485a.tgz</a></p>
+
+
+
+<p><strong>MIUI V 11.0.4.0</strong></p>
+
+
+
+<p>Recovery :</p>
+
+
+
+<p><a href="https://bigota.d.miui.com/V11.0.4.0.PCQIDXM/miui_OLIVEWOODIDGlobal_V11.0.4.0.PCQIDXM_45b4527e41_9.0.zip">https://bigota.d.miui.com/V11.0.4.0.PCQIDXM/miui_OLIVEWOODIDGlobal_V11.0.4.0.PCQIDXM_45b4527e41_9.0.zip</a></p>
+
+
+
+<p>Fastboot :</p>
+
+
+
+<p><a href="https://bigota.d.miui.com/V11.0.4.0.PCQIDXM/olivewood_id_global_images_V11.0.4.0.PCQIDXM_20200611.0000.00_9.0_global_fe2832ecd6.tgz">https://bigota.d.miui.com/V11.0.4.0.PCQIDXM/olivewood_id_global_images_V11.0.4.0.PCQIDXM_20200611.0000.00_9.0_global_fe2832ecd6.tgz</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://nmbayu.github.io/wordpress/2020/07/23/link-download-firmware-redmi-8a-pro/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>5 PDF Kompresor Terbaik</title>
+		<link>https://nmbayu.github.io/wordpress/2019/12/13/5-pdf-kompresor-terbaik/</link>
+					<comments>https://nmbayu.github.io/wordpress/2019/12/13/5-pdf-kompresor-terbaik/#respond</comments>
+		
+		<dc:creator><![CDATA[nmbayu]]></dc:creator>
+		<pubDate>Fri, 13 Dec 2019 23:40:39 +0000</pubDate>
+				<category><![CDATA[Software]]></category>
+		<guid isPermaLink="false">https://nmbayu76.eu.org/?p=214</guid>
+
+					<description><![CDATA[Format PDF adalah format file andal yang terbaik untuk mentransfer dan berbagi dokumen melalui email atau platform berbagi online. PDF akan mempertahankan format file selama proses transfer. Namun, dokumen PDF berukuran besar mungkin masih sulit untuk ditransfer dan dibagikan karena ukuran file yang besar. Tapi tidak perlu khawatir. Anda dapat menggunakan alat kompresor PDF untuk &#8230;<p class="read-more"> <a class="" href="https://nmbayu.github.io/wordpress/2019/12/13/5-pdf-kompresor-terbaik/"> <span class="screen-reader-text">5 PDF Kompresor Terbaik</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[<p style="text-align: justify;">Format PDF adalah format file andal yang terbaik untuk mentransfer dan berbagi dokumen melalui email atau platform berbagi online. PDF akan mempertahankan format file selama proses transfer. Namun, dokumen PDF berukuran besar mungkin masih sulit untuk ditransfer dan dibagikan karena ukuran file yang besar. Tapi tidak perlu khawatir. Anda dapat menggunakan alat kompresor PDF untuk mengurangi ukuran file PDF Anda. Kami akan mencantumkan 5 alat kompresi PDF gratis, termasuk PDFelement Pro, yang memungkinkan Anda mengompres dan mengurangi ukuran PDF dengan opsi pengaturan kompresi tertinggi. Plus itu dilengkapi dengan berbagai alat pembuatan PDF.</p>
+<p>PDF Kompresor tersebut adalah :</p>
+<p><strong>1. <a href="https://www.wondershare.net/ad/pdf-editor/?gclid=CjwKCAiAis3vBRBdEiwAHXB29MQA0SpN-f1cdgDfU5JQiS5r-9nNDZKiFzc6bUk3IeGSiHxthHe90hoCYioQAvD_BwE">PDFelement Pro</a></strong></p>
+<p><img loading="lazy" class="aligncenter wp-image-216 size-full" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/optimized-pdf-1.jpg" alt="" width="800" height="516" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/optimized-pdf-1.jpg 800w, https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/optimized-pdf-1-300x194.jpg 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/optimized-pdf-1-768x495.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<p style="text-align: justify;">PDFelement Pro, yang memungkinkan Anda mengompresi dan mengurangi ukuran PDF dengan opsi pengaturan kompresi pada kedudukan tertinggi. Plus itu dilengkapi dengan berbagai fitur pengedit PDF.</p>
+<p>4 Cara Mengedit dan Memampatkan File PDF Menggunakan PDFelement Pro</p>
+<ol>
+<li>Kurangi ukuran file PDF dengan menghapus objek yang tidak diinginkan seperti teks, tanda air, gambar, tautan, dan banyak lagi.</li>
+<li>Kurangi ukuran file PDF menggunakan kompresor bawaan.</li>
+<li>Kompres PDF dengan mengonversinya ke format file lain.</li>
+<li>Edit, konversi, buat, dan amankan file PDF sebelum mengompres dan membagikannya.</li>
+</ol>
+<p><strong>2.<a href="https://www.hipdf.com/compress-pdf"> Hipdf</a></strong></p>
+<p><img loading="lazy" class="aligncenter wp-image-217 size-full" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/hipdf-home-1.jpg" alt="" width="800" height="516" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/hipdf-home-1.jpg 800w, https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/hipdf-home-1-300x194.jpg 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/hipdf-home-1-768x495.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<p style="text-align: justify;">Hipdf adalah kompresor PDF online gratis. Dengan bantuan alat PDF online ini, Anda dapat dengan mudah mengompres file PDF online untuk mempertahankan kualitas asli dari PDF tetapi mengurangi ukuran file.</p>
+<p><strong>3.<a href="http://www.freepdfcompressor.com/"> Free PDF Compressor</a></strong></p>
+<p><img loading="lazy" class="aligncenter wp-image-218 size-full" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/screenshot-1.jpg" alt="" width="480" height="480" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/screenshot-1.jpg 480w, https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/screenshot-1-150x150.jpg 150w, https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/screenshot-1-300x300.jpg 300w" sizes="(max-width: 480px) 100vw, 480px" /></p>
+<p style="text-align: justify;">Aplikasi kompresor PDF gratis ini adalah alat gratis yang memungkinkan Anda dengan mudah dan cepat mengompres file PDF Anda untuk mengurangi ukuran file agar lebih mudah di kirim dan share. Cukup tambahkan file PDF yang ingin Anda kompres, dan pilih jenis file output. Tekan mulai dan tunggu prosesnya hingga selesai. File terkompresi Anda akan muncul di folder output.</p>
+<p><strong>4. <a href="http://www.nicepdf.com/products.html">Nice PDF Compressor</a></strong></p>
+<p style="text-align: justify;"><img loading="lazy" class="aligncenter wp-image-219 size-full" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/nice-pdf-compressor-1.gif" alt="" width="759" height="326">Seperti yang dikatakan situs web mereka, Kompresor PDF Gratis ini portabel dan membantu Anda menghapus file duplikat PDF juga. Ia mengelola dengan cepat dan mudah mengurangi ukuran PDF Anda, dan merupakan alat yang mudah digunakan dan andal.</p>
+<p><strong>5. <a href="http://www.pdfcompressor.org/">PDF Compressor</a></strong></p>
+<p><img loading="lazy" class="aligncenter wp-image-220 size-full" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/pdf-compressor-1.png" alt="" width="1097" height="691" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/pdf-compressor-1.png 1097w, https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/pdf-compressor-1-300x189.png 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/pdf-compressor-1-768x484.png 768w, https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/pdf-compressor-1-1024x645.png 1024w" sizes="(max-width: 1097px) 100vw, 1097px" /></p>
+<p style="text-align: justify;">PDF Compressor memungkinkan Anda untuk mengurangi ukuran file pdf dengan mudah dan cepat. Menawarkan UI yang mudah digunakan. Dengan alat praktis ini, Anda dapat mengurangi ukuran file PDF secara real tanpa kehilangan kualitas. Aplikasi ini dapat memproses ribuan file PDF sekaligus. Antarmuka pengguna intuitif dan mudah digunakan, tak perlu keahlian dalam penggunaannya.</p>
+<p></p>
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://nmbayu.github.io/wordpress/2019/12/13/5-pdf-kompresor-terbaik/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Distro Linux Terbaik 2020</title>
+		<link>https://nmbayu.github.io/wordpress/2019/12/13/distro-linux-terbaik-2020/</link>
+					<comments>https://nmbayu.github.io/wordpress/2019/12/13/distro-linux-terbaik-2020/#respond</comments>
+		
+		<dc:creator><![CDATA[nmbayu]]></dc:creator>
+		<pubDate>Fri, 13 Dec 2019 08:28:27 +0000</pubDate>
+				<category><![CDATA[Software]]></category>
+		<guid isPermaLink="false">https://nmbayu76.eu.org/?p=202</guid>
+
+					<description><![CDATA[1. Elementary OS Elementary OS adalah salah satu distro Linux terindah. UI menyerupai Mac OS &#8211; jadi jika Anda telah menggunakan sistem yang didukung Mac, mudah untuk merasa nyaman. Distro ini berbasis pada Ubuntu dan berfokus untuk menghadirkan lingkungan Linux yang ramah pengguna yang terlihat secantik mungkin sambil tetap menjaga performa kinerja. 2. MX Linux &#8230;<p class="read-more"> <a class="" href="https://nmbayu.github.io/wordpress/2019/12/13/distro-linux-terbaik-2020/"> <span class="screen-reader-text">Distro Linux Terbaik 2020</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[<p><strong>1. <a href="https://elementary.io/id/">Elementary OS</a></strong></p>
+<p style="text-align: justify;"><img loading="lazy" class="aligncenter wp-image-203 size-full" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/elementary-os-juno-feat-1.jpg" alt="" width="800" height="450" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/elementary-os-juno-feat-1.jpg 800w, https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/elementary-os-juno-feat-1-300x169.jpg 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/elementary-os-juno-feat-1-768x432.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" />Elementary OS adalah salah satu distro Linux terindah. UI menyerupai Mac OS &#8211; jadi jika Anda telah menggunakan sistem yang didukung Mac, mudah untuk merasa nyaman.</p>
+<p style="text-align: justify;">Distro ini berbasis pada Ubuntu dan berfokus untuk menghadirkan lingkungan Linux yang ramah pengguna yang terlihat secantik mungkin sambil tetap menjaga performa kinerja.</p>
+<p><strong>2. </strong><a href="https://mxlinux.org/"><strong>MX Linux</strong></a></p>
+<p><img loading="lazy" class="aligncenter wp-image-205 size-full" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/mx-linux-3-1.jpg" alt="" width="1024" height="614" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/mx-linux-3-1.jpg 1024w, https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/mx-linux-3-1-300x180.jpg 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/mx-linux-3-1-768x461.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p style="text-align: justify;">MX Linux menjadi pusat perhatian hampir setahun yang lalu. Sekarang (pada saat penerbitan ini), ini adalah distro Linux paling populer di DistroWatch.com. Jika Anda belum menggunakannya &#8211; Anda akan terkejut ketika Anda bisa menggunakannya.</p>
+<p style="text-align: justify;">Tidak seperti Ubuntu, MX Linux adalah distribusi Linux yang semakin populer berbasis pada Debian dengan XFCE sebagai lingkungan desktopnya. Selain stabilitasnya yang baik &#8211; ia hadir dengan banyak fitur GUI yang membuatnya lebih mudah bagi pengguna yang sudah merasa nyaman dengan Windows / Mac pada awalnya.</p>
+<p style="text-align: justify;">Juga, manajer paket dirancang dengan sempurna untuk memfasilitasi instalasi satu-klik. Anda bahkan dapat mencari paket Flatpak dan menginstalnya dalam waktu singkat (Flathub tersedia secara default di manajer paket sebagai salah satu sumber).</p>
+<p><strong>3. <a href="https://zorinos.com/">Zorin OS</a></strong></p>
+<p><img loading="lazy" class="aligncenter wp-image-207 size-full" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/zorin-os-15-1.jpg" alt="" width="1368" height="768" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/zorin-os-15-1.jpg 1368w, https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/zorin-os-15-1-300x168.jpg 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/zorin-os-15-1-768x431.jpg 768w, https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/zorin-os-15-1-1024x575.jpg 1024w" sizes="(max-width: 1368px) 100vw, 1368px" /></p>
+<p style="text-align: justify;">Zorin OS adalah distro Linux berbasis Ubuntu lain yang kebetulan menjadi salah satu OS yang paling cantik dan intuitif untuk desktop. Terutama, setelah rilis Zorin OS 15 &#8211; sangat cocol untuk pengguna tanpa latar belakang Linux. Banyak aplikasi berbasis GUI yang juga disertakan didalamnya.</p>
+<p style="text-align: justify;">Anda juga dapat menginstalnya pada PC lama &#8211; namun, pastikan untuk memilih edisi &#8220;Lite&#8221;, agar kinerjanya stabil. Selain itu, ada tiga edisi yaitu “Core”, “Education” &amp; “Ultimate”. Anda dapat memilih untuk menginstal edisi Core secara gratis &#8211; tetapi jika Anda ingin mendukung para pengembang dan membantu meningkatkan Zorin, pertimbangkan untuk mendapatkan edisi Ultimate.</p>
+<p><strong>4. <a href="https://system76.com/pop">Pop!_OS</a></strong></p>
+<p><img loading="lazy" class="aligncenter wp-image-209 size-full" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/popos-1.png" alt="" width="1920" height="1080" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/popos-1.png 1920w, https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/popos-1-300x169.png 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/popos-1-768x432.png 768w, https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/popos-1-1024x576.png 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /></p>
+<p style="text-align: justify;">Pop! _OS oleh Sytem76 adalah pilihan tepat untuk pengembang atau profesional ilmu komputer. Tentu saja, tidak hanya terbatas pada coders &#8211; ini juga merupakan pilihan yang sangat baik jika Anda baru mulai menggunakan Linux. Distro berbasis pada Ubuntu &#8211; tetapi UI terasa jauh lebih intuitif dan halus. Selain UI, distro ini juga menerapkan enkripsi disk secara penuh</p>
+<p style="text-align: justify;">Pop!_OS ini sepertinya merupakan distro yang multiguna, baik untuk seseorang yang sudah ahli dibidang IT maupun pengguna baru yang hendak mencicipi distro ini.</p>
+<p><strong>5. <a href="https://www.deepin.org/en/">Deepin</a></strong></p>
+<p><img loading="lazy" class="aligncenter wp-image-211 size-full" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/DeepinScreenshot_20170926012712-1.png" alt="" width="1366" height="768" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/DeepinScreenshot_20170926012712-1.png 1366w, https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/DeepinScreenshot_20170926012712-1-300x169.png 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/DeepinScreenshot_20170926012712-1-768x432.png 768w, https://nmbayu.github.io/wordpress/wp-content/uploads/2019/12/DeepinScreenshot_20170926012712-1-1024x576.png 1024w" sizes="(max-width: 1366px) 100vw, 1366px" /></p>
+<p style="text-align: justify;"><span class="tlid-translation translation" lang="id">Deepin adalah distro Linux yang ditujukan untuk menyediakan sistem UI yang indah, mudah digunakan, aman dan andal untuk pengguna global.</span></p>
+<p style="text-align: justify;"><span class="tlid-translation translation" lang="id">Deepin adalah sistem operasi open source GNU/ Linux, berbasis pada kernel Linux dan lebih ditujukan pada pemakaian aplikasi pada desktop maupun laptop, all-in-one. Sudah terinstall Deepin Desktop Environment (DDE) dan hampir 30 aplikasi asli deepin, serta beberapa aplikasi dari komunitas open source untuk memenuhi kebutuhan baik itu untuk belajar maupun untuk pekerjaan sehari-hari. Selain itu, ada sekitar seribu aplikasi ditawarkan di Deepin Store untuk memenuhi berbagai keinginan penggunanya.</span></p>
+<p></p>
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://nmbayu.github.io/wordpress/2019/12/13/distro-linux-terbaik-2020/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
