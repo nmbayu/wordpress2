@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Komputer &#8211; nmbayu76</title>
+	<atom:link href="https://nmbayu.github.io/wordpress/category/komputer/feed/" rel="self" type="application/rss+xml" />
+	<link>http://nmbayu.github.io/wordpress/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Sun, 11 Oct 2020 00:16:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6.2</generator>
+	<item>
+		<title>Cara Menggunakan Ventoy</title>
+		<link>https://nmbayu.github.io/wordpress/2020/10/11/cara-menggunakan-ventoy/</link>
+					<comments>https://nmbayu.github.io/wordpress/2020/10/11/cara-menggunakan-ventoy/#respond</comments>
+		
+		<dc:creator><![CDATA[nmbayu]]></dc:creator>
+		<pubDate>Sun, 11 Oct 2020 00:16:15 +0000</pubDate>
+				<category><![CDATA[Komputer]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Teknologi]]></category>
+		<guid isPermaLink="false">https://nmbayu76.eu.org/?p=1246</guid>
+
+					<description><![CDATA[Ventoy adalah aplikasi booting Sistem Operasi lewat flashdisk yang sangat praktis. Kita tak perlu memformat flashdisk kita setiap kita akan memasukan ISO OS atau Distro, untuk keperluan live booting dari flashdisk, dengannya kita hanya perlu sekali format, dan setelah itu kita bisa langsung menambahkan ISO pada flasdisk kita. ISO tersebut bukan hanya dari satu Sistem &#8230;<p class="read-more"> <a class="" href="https://nmbayu.github.io/wordpress/2020/10/11/cara-menggunakan-ventoy/"> <span class="screen-reader-text">Cara Menggunakan Ventoy</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[<p style="text-align: justify;"><a href="https://www.ventoy.net/en/index.html">Ventoy</a> adalah aplikasi booting Sistem Operasi lewat flashdisk yang sangat praktis. Kita tak perlu memformat flashdisk kita setiap kita akan memasukan ISO OS atau Distro, untuk keperluan live booting dari flashdisk, dengannya kita hanya perlu sekali format, dan setelah itu kita bisa langsung menambahkan ISO pada flasdisk kita. ISO tersebut bukan hanya dari satu Sistem Operasi, tapi bisa kita tambah berapa pun ISO sistem operasi yang kita mau, tergantung dari kapasitas flashdisk yang kita gunakan, serta kita dapat menghapus salah satu ISO yang sudah tidak kita gunakan lagi. Dan satu lagi Ventoy adalah aplikasi Open Source, jadi gratis untuk kita gunakan. Serta Ventoy sudah support UEFI atau Legacy,dan partisi MBR atau GPT. Dan juga Ventoy support penginstalan Sistem Operasi ke PC atau laptop kita. Ventoy bisa di unduh di link ini : https://www.ventoy.net/en/download.html</p>
+<p style="text-align: justify;">Adapun cara menggunakannya adalah berikut ini:</p>
+<p><strong>1.  Windows</strong></p>
+<p style="text-align: justify;">Di Windows kita cukup dengan hanya mendownload aplikasi Ventoy yang berbasis Windows, ekstrak terus klik file exe nya, Ventoy akan jalan automatis serta mendetek flashdisk kita. Lalu kita tinggal klik install, dan setelah itu taruh file-file ISO yang mau kita gunakan ke flashdisk.</p>
+<p><img loading="lazy" class="aligncenter wp-image-1247 size-full" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/ventoy-windows-1.png" alt="" width="434" height="304" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/ventoy-windows-1.png 434w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/ventoy-windows-1-300x210.png 300w" sizes="(max-width: 434px) 100vw, 434px" /></p>
+<p><strong>2. Linux</strong></p>
+<p>Untuk di linux, cara menggunakannya berbasis teks, yang dijalankan melalui terminal.</p>
+<p>Caranya cari dimana flashdisk kamu berada dengan perintah :</p>
+<p>$ sudo fdisk -l</p>
+<p>nanti keluar info flashdisk kita. contoh :</p>
+<p>Disk /dev/sdb: 1,95 GiB, 2095054848 bytes, 4091904 sectors<br />
+Disk model: Flash Disk<br />
+Units: sectors of 1 * 512 = 512 bytes<br />
+Sector size (logical/physical): 512 bytes / 512 bytes<br />
+I/O size (minimum/optimal): 512 bytes / 512 bytes<br />
+Disklabel type: dos<br />
+Disk identifier: 0x0498fd05</p>
+<p>Bisa dilihat disitu bahwa flashdisk berada di <strong>/dev/sdb</strong></p>
+<p>Setelah di ketahui yang mana flashdisk kita maka kita, kita masuk ke folder ventoy yang telah kita download dan ekstrak, di dalam folder tersebut kita klik kanan, terus open terminal here.</p>
+<p><img loading="lazy" class="aligncenter wp-image-1249 size-large" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/Screenshot_20201011_073052-1-1024x576.png" alt="" width="1024" height="576" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/Screenshot_20201011_073052-1-1024x576.png 1024w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/Screenshot_20201011_073052-1-300x169.png 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/Screenshot_20201011_073052-1-768x432.png 768w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/Screenshot_20201011_073052-1.png 1366w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p>Terus ketik perintah :</p>
+<p>$ sudo sh Ventoy2Disk.sh -I /dev/sdb</p>
+<p>akan keluar seperti contoh dibawah ini:</p>
+<p>**********************************************<br />
+Ventoy: 1.0.22<br />
+longpanda admin@ventoy.net<br />
+https://www.ventoy.net<br />
+**********************************************</p>
+<p>Disk : /dev/sdb<br />
+Model: Generic Flash Disk (scsi)<br />
+Size : 1 GB<br />
+Style: MBR</p>
+<p>Attention:<br />
+You will install Ventoy to /dev/sdb.<br />
+All the data on the disk /dev/sdb will be lost!!!</p>
+<p>Continue? (y/n) y</p>
+<p>All the data on the disk /dev/sdb will be lost!!!<br />
+Double-check. Continue? (y/n) y</p>
+<p>Create partitions on /dev/sdb by parted in MBR style &#8230;<br />
+Done<br />
+mkfs on disk partitions &#8230;<br />
+create efi fat fs /dev/sdb2 &#8230;<br />
+mkfs.fat 4.1 (2017-01-24)<br />
+success<br />
+mkexfatfs 1.3.0<br />
+Creating&#8230; done.<br />
+Flushing&#8230; done.<br />
+File system created successfully.<br />
+writing data to disk &#8230;<br />
+sync data &#8230;<br />
+esp partition processing &#8230;</p>
+<p>Install Ventoy to /dev/sdb successfully finished.</p>
+<p>Setelah itu selesai kita bisa menaruh file-file ISO yang kita akan gunakan untuk booting live dari flashdisk.</p>
+<p><img loading="lazy" class="aligncenter wp-image-1252 size-large" src="https://nmbayu76.eu.org/wp-content/uploads/2020/10/IMG_20201009_202246-1024x759.jpg" alt="" width="1024" height="759" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://nmbayu.github.io/wordpress/2020/10/11/cara-menggunakan-ventoy/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>5 Distro Linux Yang Cocok Untuk Game</title>
+		<link>https://nmbayu.github.io/wordpress/2020/10/03/5-distro-linux-yang-cocok-untuk-game/</link>
+					<comments>https://nmbayu.github.io/wordpress/2020/10/03/5-distro-linux-yang-cocok-untuk-game/#respond</comments>
+		
+		<dc:creator><![CDATA[nmbayu]]></dc:creator>
+		<pubDate>Sat, 03 Oct 2020 01:49:12 +0000</pubDate>
+				<category><![CDATA[Komputer]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Teknologi]]></category>
+		<guid isPermaLink="false">https://nmbayu76.eu.org/?p=1225</guid>
+
+					<description><![CDATA[1. Steam OS Mari kita mulai&#160; dengan Steam OS. Ini adalah salah satu distro game terpopuler saat ini. Ini karena ini dikembangkan dan di maintenant oleh Valve. Berbasis pada OS Debian 8 dan menggunakan lingkungan desktop GNOME. Untuk membuatnya nyaman bagi para gamer, ini mendukung berbagai jenis joystick, gamepad, dan kartu grafis setelah pemasangan. Anda &#8230;<p class="read-more"> <a class="" href="https://nmbayu.github.io/wordpress/2020/10/03/5-distro-linux-yang-cocok-untuk-game/"> <span class="screen-reader-text">5 Distro Linux Yang Cocok Untuk Game</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[<p><strong>1.<a href="https://store.steampowered.com/steamos/"> Steam OS</a></strong></p>
+<p style="text-align: justify;">Mari kita mulai&nbsp; dengan Steam OS. Ini adalah salah satu distro game terpopuler saat ini. Ini karena ini dikembangkan dan di maintenant oleh Valve.</p>
+<p style="text-align: justify;">Berbasis pada OS Debian 8 dan menggunakan lingkungan desktop GNOME. Untuk membuatnya nyaman bagi para gamer, ini mendukung berbagai jenis joystick, gamepad, dan kartu grafis setelah pemasangan. Anda dapat melanjutkan dan menginstal driver untuk perangkat keras Anda secara manual jika tidak didukung.</p>
+<p style="text-align: justify;">Menginstal Steam OS sudah diinstal sebelumnya dengan Steam dan banyak game dari Steam Store. Semuanya dirancang dan disempurnakan dengan mempertimbangkan game, jadi Anda tidak perlu menginstal apa pun untuk bermain game di Steam.</p>
+<p style="text-align: justify;">Sayangnya, ini tidak disarankan jika Anda memiliki PC lama karena persyaratan perangkat keras yang tinggi. Namun bagi penggemar game, hal tersebut lumrah, mengingat game &#8211; game masa kini yang memang membutuhkan hardware yang lebih baru dan spesifikasi yang tinggi.</p>
+<p><a href="https://store.steampowered.com/steamos/"><img loading="lazy" class="aligncenter wp-image-1227 size-large" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/steamos-1-1024x640.png" alt="" width="1024" height="640" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/steamos-1-1024x640.png 1024w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/steamos-1-300x188.png 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/steamos-1-768x480.png 768w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/steamos-1.png 1600w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p><strong>2. <a href="https://ualinux.com/en/ubuntu-gamepack">Ubuntu GamePack</a></strong></p>
+<p style="text-align: justify;">Distro Linux lain adalah Ubuntu GamePack. Ini bukan distro Ubuntu biasa tetapi lebih berbasis pada Ubuntu.</p>
+<p style="text-align: justify;">Hal tentang Ubuntu GamePack tidak memiliki game yang diinstal sebelumnya seperti Steam OS. Namun, ini sudah diinstal sebelumnya dengan klien Steam, Wine, PlayOnLinux, dan Lutris. Ini seperti persimpangan jalan tempat game di Linux, Windows, Konsol, dan Steam bisa dimainkan.</p>
+<p style="text-align: justify;">Ini membuatnya menjadi OS hybrid dalam arti tertentu, terutama karena ini juga mendukung Oracle Java dan Adobe Flash. Ini berarti bermain game online juga dimungkinkan. Faktanya, ada lebih dari 6 ribu game Linux dan Windows yang dijamin akan diluncurkan di Ubuntu GamePack.</p>
+<p style="text-align: justify;">Jika Anda pernah mencoba Ubuntu sebelumnya dan merasa nyaman dengannya, gunakan distro ini.</p>
+<p style="text-align: justify;"><a href="https://ualinux.com/en/ubuntu-gamepack"><img loading="lazy" class="aligncenter wp-image-1228 " src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/ubuntugamepack-1.jpg" alt="" width="888" height="666" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/ubuntugamepack-1.jpg 640w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/ubuntugamepack-1-300x225.jpg 300w" sizes="(max-width: 888px) 100vw, 888px" /></a></p>
+<p><strong>3. <a href="https://labs.fedoraproject.org/en/games/">Fedora Games Spin</a></strong></p>
+<p>Fedora Games Spin&nbsp; distro dirancang untuk para gamer. Fakta bahwa ada ribuan game yang sudah diinstal didalam distro ini dengan tools untuk menginstal game yang lebih banyak membuatnya layak untuk di coba.</p>
+<p>Game yang sudah diinstal di distro berkisar dari First Person, Real Time Strategy, dan banyak lagi. Semuanya tersedia untuk menunjang kegiatan bergame anda.</p>
+<p>Tidak seperti kebanyakan distro Linux, ini cepat, ringan, dan stabil.</p>
+<p>Jika anda masih ingin memiliki game PlayOnLinux, Wine, atau Steam, Anda harus menginstalnya secara manual karena tidak diinstal sebelumnya secara default. Selain itu, Anda juga perlu menginstal driver baru karena tidak disertakan dengan instalasi.</p>
+<p>Jika Anda mencari distro Linux game dan merasa nyaman dengan lingkungan desktop XFCE, ini cocok untuk Anda.</p>
+<p><a href="https://labs.fedoraproject.org/en/games/"><img loading="lazy" class="aligncenter wp-image-1229 size-full" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/fedoragamesspin-1.jpg" alt="" width="1280" height="720"></a></p>
+<p><strong>4. <a href="https://sparkylinux.org/tag/game/">SparkyLinux &#8211; Gameover Edition</a></strong></p>
+<p style="text-align: justify;">Distro ini sudah memiliki banyak sekali game pra-instal (sudah terintall di system) yang dapat Anda mainkan, tetapi program APTus Gamer menawarkan Anda lebih banyak opsi untuk bermain. Ini berisi daftar emulator yang dapat Anda instal di sistem Anda. Namun, jika Anda ingin bermain game di Steam, PlayOnLinux, atau Wine, Anda harus menginstalnya secara manual karena game-game tersebut belum terpasang sebelumnya.</p>
+<p style="text-align: justify;">Secara keseluruhan, jika Anda adalah seorang gamer yang rajin bermain game dengan emulator, Anda bisa menginstal SparkyLinux &#8211; edisi Gameover.</p>
+<p><a href="https://sparkylinux.org/sparkylinux-4-3-special-editions/"><img loading="lazy" class="aligncenter wp-image-1232 " src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/sparky-gameover-1-1.png" alt="" width="913" height="684" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/sparky-gameover-1-1.png 800w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/sparky-gameover-1-1-300x225.png 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/sparky-gameover-1-1-768x575.png 768w" sizes="(max-width: 913px) 100vw, 913px" /></a></p>
+<p><strong>5. <a href="https://sourceforge.net/projects/mgame/">Manjaro Gaming Edition</a></strong></p>
+<p style="text-align: justify;">Sebenarnya Manjaro Gaming Edition ini adalah Distro unofficial (tidak resmi) berbasis Manjaro, makanya tidak ditemukan di website resmi Manjaro. Manjaro Gaming Edition didedikasikan untuk para gamer yang cenderung membuat konten. Kami dapat mengatakan bahwa ini untuk para gamer yang menyukai pembuatan konten karena ini sudah diinstal dengan tools untuk membuat konten.</p>
+<p style="text-align: justify;">Beberapa di antaranya termasuk Audacity, aplikasi streaming, alat tangkapan layar, perangkat lunak chatting, dan banyak lagi.</p>
+<p style="text-align: justify;">Salah satu hal yang menjadikan Manjaro OS yang harus Anda pertimbangkan adalah kenyataan bahwa ini sudah diinstal dengan driver kartu grafis populer. Mereka tidak hanya diperbarui secara berkala tetapi dapat dioptimalkan untuk pengalaman bermain game yang lebih baik.</p>
+<p style="text-align: justify;">Ini juga sudah diinstal dengan emulator seperti Dolphin, DOSbox, FCEUX, Kega Fusion, PCSX, PCSX2, PPSSPP, RetroArch, Stella, VBA-M, Yabause, dan ZSNES. Jika Anda ingin menikmati pengalaman bermain game Anda di emulator ini, Manjaro Gaming Edition akan sempurna.</p>
+<p style="text-align: justify;">Satu-satunya masalah dengan distro ini adalah kenyataan bahwa ini adalah distro berbasis Linux Arch. Jika Anda ingin bermain game uap, Anda harus menginstal klien Steam secara manual terlebih dahulu. Tetapi karena klien Steam tidak didukung oleh Arch, akan ada masalah di sana-sini.</p>
+<p style="text-align: justify;">Secara umum, gamer yang menyukai kreasi konten kemungkinan besar akan cocok dengan anda.</p>
+<p><img loading="lazy" class="aligncenter wp-image-1234 size-large" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/manjarogamingedition-1-1024x576.png" alt="" width="1024" height="576" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/manjarogamingedition-1-1024x576.png 1024w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/manjarogamingedition-1-300x169.png 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/manjarogamingedition-1-768x432.png 768w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/manjarogamingedition-1.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p>Memilih distro Linux terbaik untuk bermain game mungkin tampak menantang, tetapi memeriksa ulasan seperti ini akan memberi anda pemahaman yang lebih dalam tentang distro mana yang cocok untuk kebutuhan game anda.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://nmbayu.github.io/wordpress/2020/10/03/5-distro-linux-yang-cocok-untuk-game/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Solusi Windows 10 &#8220;Can&#8217;t Connect To This Network&#8221;</title>
+		<link>https://nmbayu.github.io/wordpress/2020/03/08/solusi-windows-10-cant-connect-to-this-network/</link>
+					<comments>https://nmbayu.github.io/wordpress/2020/03/08/solusi-windows-10-cant-connect-to-this-network/#respond</comments>
+		
+		<dc:creator><![CDATA[nmbayu]]></dc:creator>
+		<pubDate>Sun, 08 Mar 2020 04:36:50 +0000</pubDate>
+				<category><![CDATA[Komputer]]></category>
+		<guid isPermaLink="false">https://nmbayu76.eu.org/?p=880</guid>
+
+					<description><![CDATA[Sering kali kita dihadapkan pada masalah tidak bisa terkoneksinya jaringan kita dengan laptop/ PC kita yang bersistem operasi Windows 10 (can&#8217;t connect to this network). Meskipun Windows 10 adalah sistem operasi terbaru, belum tentu terbebas dari masalah. Dibawah ini tercantum beberapa solusi untuk masalah &#8211; masalah tersebut : 1. Reinstall Network Adapter Cara pertama yaitu &#8230;<p class="read-more"> <a class="" href="https://nmbayu.github.io/wordpress/2020/03/08/solusi-windows-10-cant-connect-to-this-network/"> <span class="screen-reader-text">Solusi Windows 10 &#8220;Can&#8217;t Connect To This Network&#8221;</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[<p style="text-align: justify;">Sering kali kita dihadapkan pada masalah tidak bisa terkoneksinya jaringan kita dengan laptop/ PC kita yang bersistem operasi Windows 10 (can&#8217;t connect to this network). Meskipun <a href="https://www.microsoft.com/en-us/software-download/windows10">Windows 10</a> adalah sistem operasi terbaru, belum tentu terbebas dari masalah.</p>
+<p>Dibawah ini tercantum beberapa solusi untuk masalah &#8211; masalah tersebut :</p>
+<p><strong>1. Reinstall Network Adapter</strong></p>
+<p><img loading="lazy" class="aligncenter wp-image-883 size-full" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/03/network-1-1.jpg" alt="" width="358" height="452" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/03/network-1-1.jpg 358w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/03/network-1-1-238x300.jpg 238w" sizes="(max-width: 358px) 100vw, 358px" /></p>
+<p>Cara pertama yaitu reinstall network adapter, karena bisa saja hal yang menyebabkan &#8220;can&#8217;t connect to this network&#8221; ialah karena masalah software di network adapter kita, oleh karena itu kita uninstall dulu network adapternya baru di install lagi.</p>
+<p>Adapun langkah &#8211; langkah reinstallnya ialah sebagai berikut :</p>
+<ol>
+<li>Tekan Windows key + X.</li>
+<li>Pilih Device Manager dari daftar device.</li>
+<li>Didalam Device Manager setting, beralih ke network adapter.</li>
+<li>Klik kanan di network adapter setting</li>
+<li>Klik Uninstall, dan klik OK.</li>
+<li>Ketika di uninstall maka akan automatis restart dan menginstal ulang dengan sendirinya.</li>
+</ol>
+<p><strong>2. Disable/ Non Aktifkan IPv6</strong></p>
+<p><img loading="lazy" class="aligncenter wp-image-885 size-full" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/03/network-2-1.jpg" alt="" width="897" height="475" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/03/network-2-1.jpg 897w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/03/network-2-1-300x159.jpg 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/03/network-2-1-768x407.jpg 768w" sizes="(max-width: 897px) 100vw, 897px" /></p>
+<p style="text-align: justify;">Error jaringan pada Windows 10, bisa terjadi berkali &#8211; kali ialah bisa disebabkan miskonfigurasi di dalam daftar IP Network Protokol setting anda. Anda bisa mendisable/ menonaktifkan IPv6 Protokol Network dan kemudian bisa memecahkan masalahnya dengan beberapa langkah berikut :</p>
+<ol>
+<li>Buka Network and Sharing Center.</li>
+<li>Cari Connection Section dan klik koneksi sekarang.</li>
+<li>Koneksi status window akan terbuka.</li>
+<li>Klik Properties Button.</li>
+<li>Cari Internet Protocol Version 6 (TCP/IPv6).</li>
+<li>Hapus centangnya, dan sekarang IPv6 sudah dinonaktifkan.</li>
+<li>Tekan enter dan restart komputer.</li>
+</ol>
+<p><strong>3. Update Driver Network Adapter</strong></p>
+<p><img loading="lazy" class="aligncenter wp-image-887 size-full" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/03/network-3-1.jpg" alt="" width="773" height="535" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/03/network-3-1.jpg 773w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/03/network-3-1-300x208.jpg 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/03/network-3-1-768x532.jpg 768w" sizes="(max-width: 773px) 100vw, 773px" /></p>
+<p>Solusi selanjutnya ialah update network adapter driver, kemungkinan besar terjadi konflik atau bug dalam device network adapter anda sehingga koneksi pada jaringan terganggu. adapun langkah &#8211; langkahnya :</p>
+<ol>
+<li>Buka Windows + X.</li>
+<li>Pilih Device Manager.</li>
+<li>Pilih Network Adapter dan cari Jenis dan Tipe Network Adapter anda.</li>
+<li>Lalu pilih update.</li>
+</ol>
+<p><strong>4. Forget atau Lupakan Koneksi Wifi Anda</strong></p>
+<p><img loading="lazy" class="aligncenter wp-image-890 size-full" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/03/network-4-1.jpg" alt="" width="794" height="515" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/03/network-4-1.jpg 794w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/03/network-4-1-300x195.jpg 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/03/network-4-1-768x498.jpg 768w" sizes="(max-width: 794px) 100vw, 794px" /></p>
+<p>Salah satu solusi lain ialah memforget/melupakan jaringan Wifi anda, di mana langkah &#8211; langkahnya sebagai berikut :</p>
+<ol>
+<li>Open Settings.</li>
+<li>Pergi ke Network dan Internet.</li>
+<li>Pergi ke bagian Wifi</li>
+<li>Klik Manage Wifi settings.</li>
+<li>Pergi ke Manage Known Network.</li>
+<li>Kemudian pilih jaringan hotspot yang tidak bisa tersambung dan klik forget.</li>
+</ol>
+<p><strong>5. Disable dan Re-enable Wireless Adapter</strong></p>
+<p><img loading="lazy" class="aligncenter wp-image-892 size-full" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/03/network-5-1.jpg" alt="" width="1039" height="393" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/03/network-5-1.jpg 1039w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/03/network-5-1-300x113.jpg 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/03/network-5-1-768x290.jpg 768w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/03/network-5-1-1024x387.jpg 1024w" sizes="(max-width: 1039px) 100vw, 1039px" /></p>
+<p>Solusi yang terakhir adalah dengan mendisable dan reenable kembali Wireless adapter anda. Adapun langkah &#8211; langkahnya adalah :</p>
+<ol>
+<li>Buka Control Panel.</li>
+<li>Klik Network and Internet.</li>
+<li>Pilih Network Connection yang akan di disable dan reenable kembali.</li>
+<li>Klik kanan pilih disable, terus restart</li>
+<li>Setelah Restart maka akan automatis terenable kembali.</li>
+</ol>
+<p>Demikianlah solusi untuk masalah Windows 10 &#8220;can&#8217;t connect to this network&#8221; semoga bermanfaat.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://nmbayu.github.io/wordpress/2020/03/08/solusi-windows-10-cant-connect-to-this-network/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Tips Memelihara Komputer Agar Tetap Berfungsi</title>
+		<link>https://nmbayu.github.io/wordpress/2020/01/06/tips-memelihara-komputer-agar-tetap-berfungsi/</link>
+					<comments>https://nmbayu.github.io/wordpress/2020/01/06/tips-memelihara-komputer-agar-tetap-berfungsi/#respond</comments>
+		
+		<dc:creator><![CDATA[nmbayu]]></dc:creator>
+		<pubDate>Mon, 06 Jan 2020 09:58:41 +0000</pubDate>
+				<category><![CDATA[Komputer]]></category>
+		<guid isPermaLink="false">https://nmbayu76.eu.org/?p=668</guid>
+
+					<description><![CDATA[Beberapa hal dapat membuat laptop atau komputer Anda menjadi lebih buruk. Hal-hal yang mungkin hanya membutuhkan waktu sehari dalam pengerjaannya dapat mengakibatkan frustrasi berminggu-minggu untuk menyelesaikan suatu pekerjaan. Ini karena sistem operasi akan selalu berubah untuk semakin mengoptimalkan softwarenya maupun perangkatnya. Jika hal ini tidak berjalan dengan baik, hal tersebut dapat membuat komputer tidak berjalan &#8230;<p class="read-more"> <a class="" href="https://nmbayu.github.io/wordpress/2020/01/06/tips-memelihara-komputer-agar-tetap-berfungsi/"> <span class="screen-reader-text">Tips Memelihara Komputer Agar Tetap Berfungsi</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[<p style="text-align: justify;">Beberapa hal dapat membuat laptop atau komputer Anda menjadi lebih buruk. Hal-hal yang mungkin hanya membutuhkan waktu sehari dalam pengerjaannya dapat mengakibatkan frustrasi berminggu-minggu untuk menyelesaikan suatu pekerjaan. Ini karena sistem operasi akan selalu berubah untuk semakin mengoptimalkan softwarenya maupun perangkatnya. Jika hal ini tidak berjalan dengan baik, hal tersebut dapat membuat komputer tidak berjalan sebagaimana mestinya.</p>
+<p style="text-align: justify;">Sangat penting untuk menjaga komputer tetap dalam kondisi prima. Ada kebutuhan untuk pemeliharaan perangkat secara reguler demi kelancaran pengoperasian, sehingga gangguan yang terjadi seperti virus dan lainnya dapat dihindarkan.</p>
+<p style="text-align: justify;">Berikut adalah tips untuk menjaga laptop atau komputer Anda berjalan secara optimal:</p>
+<p style="text-align: justify;"><strong>Tips untuk perangkat lunak perawatan komputer meliputi:</strong></p>
+<p style="text-align: justify;">1.  Periksa secara teratur untuk pembaruan dari produsen dan pastikan pemasangan yang benar. Jika Anda membiarkannya diabaikan, komputer Anda tersedia untuk peretasan, terutama karena terhubung online. Atur jadwal bulanan atau mingguan untuk memastikan sistem operasi terbaru.<br />
+Menjalankan laporan sistem jaringan untuk mengidentifikasi data apa pun yang aktivitasnya tidak normal.</p>
+<p style="text-align: justify;">2. Otomatiskan laporan sistem sehingga proses pencadangan terjadi setiap hari secara automatis, serta akan memberi tahu Anda tentang adanya pembaruan yang terbaru.</p>
+<p style="text-align: justify;">3. Perbarui kebijakan IT di kantor karena teknologi akan terus berubah dan selalu ingat untuk mengganti atau memperbarui perangkat lunak secara tepat waktu. Tujuan memperbarui adalah untuk menghindarkan para peretas maupun virus yang menyebabkan komputer bermasalah, jika software tidak diperbarui maka terbuka kemungkinan untuk peretas maupun virus untuk mengambil keuntungan. Perbarui definisi firewall dan virus agar berfungsi dengan baik. Gunakan penyimpanan cloud untuk pemulihan dan pelestarian data secara teratur.</p>
+<p style="text-align: justify;"><strong>Tip untuk pemeliharaan komputer untuk perangkat keras meliputi:</strong></p>
+<p style="text-align: justify;">1. Berikan pembersihan rutin dengan membersihkan keyboard. Jauhkan kotoran dan debu agar unit daya dan kipas angin tidak macet. Gunakan vacum cleaner ukuran kecil (biasa buat mobil) untuk membersihkan debu.</p>
+<p style="text-align: justify;">2. Pastikan perangkat keras selalu upto date. Perlambatan jaringan dapat terjadi seiring waktu penggunaan peralatan yang sudah ketinggalan zaman.</p>
+<p style="text-align: justify;">3. Selalu simpan perangkat keras Anda di tempat yang kering dan aman untuk mencegah kehilangan data atau kerusakan bencana seperti kerusakan atau banjir.</p>
+<p style="text-align: justify;">4. Jaga ruang kosong pada hardisk yang cukup. Ini karena jika ruang hardisk penuh, kinerjanya akan lambat atau mungkin terhenti/hang, dan dapat menjadikan sangat mengganggu bagi pengguna.  Akan lebih baik  pindahkan data tersebut ke penyimpanan cloud, sehingga memberikan ruang kepada hardisk.</p>
+<p style="text-align: justify;">5. Putuskan sambungan perangkat keras yang tidak diperlukan dan pastikan firewall yang diperlukan untuk melindungi data aktif untuk akses tanpa hambatan ke jaringan yang terbuka.</p>
+<p style="text-align: justify;">Dengan adanya pemeliharaan pada komputer maupun laptop, maka diharapkan terjadinya peningkatan kinerja atau performa dari device tersebut, sehingga berimbas pada kelancaran operasi sehari &#8211; hari pada perusahaan.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://nmbayu.github.io/wordpress/2020/01/06/tips-memelihara-komputer-agar-tetap-berfungsi/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>10 Cara Perlindungan Account dari Peretas</title>
+		<link>https://nmbayu.github.io/wordpress/2019/12/26/10-cara-perlindungan-account-dari-peretas/</link>
+					<comments>https://nmbayu.github.io/wordpress/2019/12/26/10-cara-perlindungan-account-dari-peretas/#respond</comments>
+		
+		<dc:creator><![CDATA[nmbayu]]></dc:creator>
+		<pubDate>Thu, 26 Dec 2019 04:09:36 +0000</pubDate>
+				<category><![CDATA[Komputer]]></category>
+		<guid isPermaLink="false">https://nmbayu76.eu.org/?p=510</guid>
+
+					<description><![CDATA[1. Gunakan Verifikasi Dua Langkah untuk Email Hal nomor satu yang perlu Anda lakukan untuk melindungi diri Anda secara online adalah mengamankan alamat email Anda. Peretas yang memiliki akses ke email Anda dapat mengubah akun lain. Jika memungkinkan, Anda perlu menyiapkan verifikasi dua langkah untuk email Anda. Anda harus menggunakan kata sandi dan metode verifikasi &#8230;<p class="read-more"> <a class="" href="https://nmbayu.github.io/wordpress/2019/12/26/10-cara-perlindungan-account-dari-peretas/"> <span class="screen-reader-text">10 Cara Perlindungan Account dari Peretas</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[<p><strong>1. Gunakan Verifikasi Dua Langkah untuk Email</strong></p>
+<p style="text-align: justify;">Hal nomor satu yang perlu Anda lakukan untuk melindungi diri Anda secara online adalah mengamankan alamat email Anda. Peretas yang memiliki akses ke email Anda dapat mengubah akun lain.</p>
+<p style="text-align: justify;">Jika memungkinkan, Anda perlu menyiapkan verifikasi dua langkah untuk email Anda.</p>
+<p style="text-align: justify;">Anda harus menggunakan kata sandi dan metode verifikasi lain sebelum mendapatkan akses. Ini adalah langkah efektif yang akan mencegah peretasan.</p>
+<p style="text-align: justify;">
+<strong>2. Buat Kata Sandi Unik</strong></p>
+<p style="text-align: justify;">Langkah lain dalam menghentikan peretas adalah membuat kata sandi yang baik. Mayoritas pengguna internet membuat kata sandi yang sangat buruk. Pada tahun 2014, misalnya, lima kata sandi paling populer adalah:</p>
+<p style="text-align: justify;">123456<br />
+kata sandi<br />
+12345<br />
+12345678<br />
+qwerty</p>
+<p style="text-align: justify;">Penjahat dunia maya yang memecahkan kata sandi mengunggah informasi ke basis data online. Itu berarti kapan saja Anda menggunakan kata sandi pada basis data, kata sandi itu telah terpapar ke peretas.</p>
+<p style="text-align: justify;">
+<strong>3. Perbarui Sistem Operasi Komputer atau Perangkat Lunak Anda</strong></p>
+<p style="text-align: justify;">Kiat lain tentang cara mencegah peretas adalah tetap mengikuti pembaruan perangkat lunak. Pembaruan penting ini sering memiliki tambalan yang memperbaiki kerentanan.</p>
+<p style="text-align: justify;">Gagal memperbarui dapat membuat Anda terbuka terhadap serangan. Yang terbaik adalah mengatur ponsel atau komputer Anda untuk mengunduh pembaruan secara otomatis begitu tersedia.</p>
+<p><strong>4. Lindungi Koneksi Internet Anda dengan Kata Sandi<br />
+</strong></p>
+<p style="text-align: justify;">Terlalu banyak pengguna internet gagal memproteksi koneksi internet mereka sendiri.</p>
+<p style="text-align: justify;">Tanpa kata sandi, semua data yang Anda kirim dan terima benar-benar terbuka. Itu berarti siapa pun yang berada dalam jangkauan router Anda bisa mendapatkan data ini.</p>
+<p style="text-align: justify;">Penjahat juga dapat menggunakan jaringan terbuka untuk menyebarkan infeksi atau mencuri bandwidth Anda. Paling buruk, mereka bisa menggunakan koneksi Anda untuk melakukan serangan DDoS ilegal.</p>
+<p><strong>5. Mempertimbangkan kembali Menghubungkan ke Jaringan WiFi Terbuka</strong></p>
+<p style="text-align: justify;">Memahami bahwa Anda menghadapi risiko paparan yang sama ketika Anda terhubung ke jaringan WiFi publik yang terbuka.</p>
+<p style="text-align: justify;">Berikut adalah beberapa tips tentang cara melindungi diri Anda dari peretas di jaringan publik:</p>
+<p style="text-align: justify;">Selalu matikan pengaturan ‘koneksi otomatis ke jaringan WiFi’<br />
+Masukkan informasi login hanya ketika situs memiliki &#8220;https&#8221; daripada &#8220;http.&#8221; The &#8220;s&#8221; menunjukkan koneksi aman ke situs web.<br />
+Hindari masuk ke akun melalui aplikasi. Sebagai gantinya, gunakan browser internet<br />
+Selalu keluar dari akun Anda setelah menggunakannya di jaringan publik</p>
+<p style="text-align: justify;">Sebagai aturan umum, hanya terhubung ke jaringan publik ketika Anda tidak punya pilihan lain.</p>
+<p><strong>6. Mencegah Peretasan yang di lakukan oleh EMP<br />
+</strong></p>
+<p style="text-align: justify;">Saat memikirkan cara menghentikan peretas, sedikit yang mempertimbangkan kemungkinan serangan grid besar.</p>
+<p style="text-align: justify;">Gelombang elektromagnetik (EMP) memiliki kemampuan untuk menghancurkan perangkat listrik. EMP dapat terjadi sebagai akibat dari senjata atau fenomena alam yang digunakan.</p>
+<p style="text-align: justify;">Sangat sedikit yang dapat Anda lakukan untuk melindungi elektronik Anda dari ledakan EMP. Dianjurkan Anda mencari teknologi EMP seperti yang ditemukan di https://techprotectbag.com/.</p>
+<p style="text-align: justify;">Alat &#8211; alat ini dapat menghentikan perangkat Anda dari dihancurkan oleh EMP. Dalam serangan skala besar, alat ini bisa menyelamatkan jiwa.</p>
+<p><strong>7. Jangan Percayai Tautan Email</strong></p>
+<p style="text-align: justify;">Kiat utama tentang cara mencegah peretasan adalah memeriksa semua tautan dalam surel.</p>
+<p style="text-align: justify;">Jangan pernah mengklik tautan dari email kecuali Anda memercayai sumbernya. Bahkan sumber tepercaya terkadang mengirim surel berbahaya secara tidak sengaja ketika peretasan dilakukan</p>
+<p style="text-align: justify;">Menjadi semakin umum bagi para penjahat dunia maya untuk meniru situs web yang sah. Mereka akan meminta Anda untuk masuk ke situs web perangkap ini dan akan benar-benar mencuri data Anda.</p>
+<p style="text-align: justify;">Jika ragu, ketikkan alamat situs web yang dikenal di browser web Anda daripada mengklik tautan.</p>
+<p><strong>8. Batasi Daftar Teman Media Sosial Anda</strong></p>
+<p style="text-align: justify;">Memang tampaknya konyol untuk menyarankan Anda untuk membatasi anda berhubungan dengan orang asing di internet pada tahun 2019. Namun, pertimbangkan berapa banyak data pribadi yang Anda biarkan terekspos di media sosial setiap hari.</p>
+<p style="text-align: justify;">Peretas modern menggunakan teknik yang disebut rekayasa sosial. Mereka berusaha memanipulasi target dengan berteman dengan mereka. Ini sering menyebabkan mereka membiarkan informasi pribadi tergelincir secara tidak sengaja.</p>
+<p style="text-align: justify;">Rekayasa sosial juga dapat mempengaruhi Anda ketika seorang peretas menambahkan seseorang di daftar teman Anda. Mereka dapat memperoleh akses ke profil pribadi Anda dengan menjadi teman teman.</p>
+<p style="text-align: justify;">Cara terbaik untuk menghindari menjadi target rekayasa sosial adalah dengan menolak permintaan teman dari orang yang tidak Anda kenal.</p>
+<p style="text-align: justify;">
+<strong>9. Pertimbangkan Layanan VPN</strong></p>
+<p style="text-align: justify;">Jika Anda ingin memaksimalkan privasi Anda, pertimbangkan untuk menggunakan layanan VPN. VPN adalah kependekan dari jaringan pribadi virtual. Jenis layanan ini melindungi alamat IP komputer Anda ketika Anda online dengan menggunakan perantara.</p>
+<p style="text-align: justify;">Alat ini melakukan semua komunikasi dengan berbagai situs web. Ini melindungi lokasi Anda, alamat komputer, data, dan riwayat penelusuran.</p>
+<p style="text-align: justify;">Biasanya, layanan ini berharga sekitar $ 5-10 per bulan. Ada juga opsi gratis, tetapi gunakan penilaian terbaik Anda saat memilih layanan.</p>
+<p style="text-align: justify;">Perlu diingat bahwa layanan VPN tidak sempurna. Lembaga penegak hukum masih dapat memaksa mereka untuk memberikan informasi Anda, jadi jangan coba gunakan untuk yang ilegal.</p>
+<p><strong>10. Selalu Jaga Keamanan Website Anda<br />
+</strong></p>
+<p style="text-align: justify;">Pada bulan Februari tahun 2018, lebih dari 5000 situs web diretas. Ketika penjahat dunia maya meretas situs web, mereka mencuri data seperti alamat email dan kata sandi.</p>
+<p style="text-align: justify;">Jika Anda menggunakan kata sandi yang sama pada akun email Anda, Anda dalam bahaya! Selalu ganti kata sandi Anda saat membuat akun di situs web atau blog.</p>
+<p style="text-align: justify;">Informasi pelanggan Anda juga dapat diekspos oleh peretasan.</p>
+<p style="text-align: justify;">Diperlukan untuk melakukan hal yang lebih mendetail mengenai keamanan siber untuk web jika Anda memilikinya. Langkah-langkah ini akan melindungi Anda dan pengunjung web anda</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://nmbayu.github.io/wordpress/2019/12/26/10-cara-perlindungan-account-dari-peretas/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
