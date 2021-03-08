@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Teknologi &#8211; nmbayu76</title>
+	<atom:link href="https://nmbayu.github.io/wordpress/category/teknologi/feed/" rel="self" type="application/rss+xml" />
+	<link>http://nmbayu.github.io/wordpress/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Sun, 11 Oct 2020 00:16:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6.2</generator>
+	<item>
+		<title>Cara Menggunakan Ventoy</title>
+		<link>https://nmbayu.github.io/wordpress/2020/10/11/cara-menggunakan-ventoy/</link>
+					<comments>https://nmbayu.github.io/wordpress/2020/10/11/cara-menggunakan-ventoy/#respond</comments>
+		
+		<dc:creator><![CDATA[nmbayu]]></dc:creator>
+		<pubDate>Sun, 11 Oct 2020 00:16:15 +0000</pubDate>
+				<category><![CDATA[Komputer]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Teknologi]]></category>
+		<guid isPermaLink="false">https://nmbayu76.eu.org/?p=1246</guid>
+
+					<description><![CDATA[Ventoy adalah aplikasi booting Sistem Operasi lewat flashdisk yang sangat praktis. Kita tak perlu memformat flashdisk kita setiap kita akan memasukan ISO OS atau Distro, untuk keperluan live booting dari flashdisk, dengannya kita hanya perlu sekali format, dan setelah itu kita bisa langsung menambahkan ISO pada flasdisk kita. ISO tersebut bukan hanya dari satu Sistem &#8230;<p class="read-more"> <a class="" href="https://nmbayu.github.io/wordpress/2020/10/11/cara-menggunakan-ventoy/"> <span class="screen-reader-text">Cara Menggunakan Ventoy</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[<p style="text-align: justify;"><a href="https://www.ventoy.net/en/index.html">Ventoy</a> adalah aplikasi booting Sistem Operasi lewat flashdisk yang sangat praktis. Kita tak perlu memformat flashdisk kita setiap kita akan memasukan ISO OS atau Distro, untuk keperluan live booting dari flashdisk, dengannya kita hanya perlu sekali format, dan setelah itu kita bisa langsung menambahkan ISO pada flasdisk kita. ISO tersebut bukan hanya dari satu Sistem Operasi, tapi bisa kita tambah berapa pun ISO sistem operasi yang kita mau, tergantung dari kapasitas flashdisk yang kita gunakan, serta kita dapat menghapus salah satu ISO yang sudah tidak kita gunakan lagi. Dan satu lagi Ventoy adalah aplikasi Open Source, jadi gratis untuk kita gunakan. Serta Ventoy sudah support UEFI atau Legacy,dan partisi MBR atau GPT. Dan juga Ventoy support penginstalan Sistem Operasi ke PC atau laptop kita. Ventoy bisa di unduh di link ini : https://www.ventoy.net/en/download.html</p>
+<p style="text-align: justify;">Adapun cara menggunakannya adalah berikut ini:</p>
+<p><strong>1.  Windows</strong></p>
+<p style="text-align: justify;">Di Windows kita cukup dengan hanya mendownload aplikasi Ventoy yang berbasis Windows, ekstrak terus klik file exe nya, Ventoy akan jalan automatis serta mendetek flashdisk kita. Lalu kita tinggal klik install, dan setelah itu taruh file-file ISO yang mau kita gunakan ke flashdisk.</p>
+<p><img loading="lazy" class="aligncenter wp-image-1247 size-full" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/ventoy-windows-1.png" alt="" width="434" height="304" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/ventoy-windows-1.png 434w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/ventoy-windows-1-300x210.png 300w" sizes="(max-width: 434px) 100vw, 434px" /></p>
+<p><strong>2. Linux</strong></p>
+<p>Untuk di linux, cara menggunakannya berbasis teks, yang dijalankan melalui terminal.</p>
+<p>Caranya cari dimana flashdisk kamu berada dengan perintah :</p>
+<p>$ sudo fdisk -l</p>
+<p>nanti keluar info flashdisk kita. contoh :</p>
+<p>Disk /dev/sdb: 1,95 GiB, 2095054848 bytes, 4091904 sectors<br />
+Disk model: Flash Disk<br />
+Units: sectors of 1 * 512 = 512 bytes<br />
+Sector size (logical/physical): 512 bytes / 512 bytes<br />
+I/O size (minimum/optimal): 512 bytes / 512 bytes<br />
+Disklabel type: dos<br />
+Disk identifier: 0x0498fd05</p>
+<p>Bisa dilihat disitu bahwa flashdisk berada di <strong>/dev/sdb</strong></p>
+<p>Setelah di ketahui yang mana flashdisk kita maka kita, kita masuk ke folder ventoy yang telah kita download dan ekstrak, di dalam folder tersebut kita klik kanan, terus open terminal here.</p>
+<p><img loading="lazy" class="aligncenter wp-image-1249 size-large" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/Screenshot_20201011_073052-1-1024x576.png" alt="" width="1024" height="576" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/Screenshot_20201011_073052-1-1024x576.png 1024w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/Screenshot_20201011_073052-1-300x169.png 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/Screenshot_20201011_073052-1-768x432.png 768w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/Screenshot_20201011_073052-1.png 1366w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p>Terus ketik perintah :</p>
+<p>$ sudo sh Ventoy2Disk.sh -I /dev/sdb</p>
+<p>akan keluar seperti contoh dibawah ini:</p>
+<p>**********************************************<br />
+Ventoy: 1.0.22<br />
+longpanda admin@ventoy.net<br />
+https://www.ventoy.net<br />
+**********************************************</p>
+<p>Disk : /dev/sdb<br />
+Model: Generic Flash Disk (scsi)<br />
+Size : 1 GB<br />
+Style: MBR</p>
+<p>Attention:<br />
+You will install Ventoy to /dev/sdb.<br />
+All the data on the disk /dev/sdb will be lost!!!</p>
+<p>Continue? (y/n) y</p>
+<p>All the data on the disk /dev/sdb will be lost!!!<br />
+Double-check. Continue? (y/n) y</p>
+<p>Create partitions on /dev/sdb by parted in MBR style &#8230;<br />
+Done<br />
+mkfs on disk partitions &#8230;<br />
+create efi fat fs /dev/sdb2 &#8230;<br />
+mkfs.fat 4.1 (2017-01-24)<br />
+success<br />
+mkexfatfs 1.3.0<br />
+Creating&#8230; done.<br />
+Flushing&#8230; done.<br />
+File system created successfully.<br />
+writing data to disk &#8230;<br />
+sync data &#8230;<br />
+esp partition processing &#8230;</p>
+<p>Install Ventoy to /dev/sdb successfully finished.</p>
+<p>Setelah itu selesai kita bisa menaruh file-file ISO yang kita akan gunakan untuk booting live dari flashdisk.</p>
+<p><img loading="lazy" class="aligncenter wp-image-1252 size-large" src="https://nmbayu76.eu.org/wp-content/uploads/2020/10/IMG_20201009_202246-1024x759.jpg" alt="" width="1024" height="759" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://nmbayu.github.io/wordpress/2020/10/11/cara-menggunakan-ventoy/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>5 Distro Linux Yang Cocok Untuk Game</title>
+		<link>https://nmbayu.github.io/wordpress/2020/10/03/5-distro-linux-yang-cocok-untuk-game/</link>
+					<comments>https://nmbayu.github.io/wordpress/2020/10/03/5-distro-linux-yang-cocok-untuk-game/#respond</comments>
+		
+		<dc:creator><![CDATA[nmbayu]]></dc:creator>
+		<pubDate>Sat, 03 Oct 2020 01:49:12 +0000</pubDate>
+				<category><![CDATA[Komputer]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Teknologi]]></category>
+		<guid isPermaLink="false">https://nmbayu76.eu.org/?p=1225</guid>
+
+					<description><![CDATA[1. Steam OS Mari kita mulai&#160; dengan Steam OS. Ini adalah salah satu distro game terpopuler saat ini. Ini karena ini dikembangkan dan di maintenant oleh Valve. Berbasis pada OS Debian 8 dan menggunakan lingkungan desktop GNOME. Untuk membuatnya nyaman bagi para gamer, ini mendukung berbagai jenis joystick, gamepad, dan kartu grafis setelah pemasangan. Anda &#8230;<p class="read-more"> <a class="" href="https://nmbayu.github.io/wordpress/2020/10/03/5-distro-linux-yang-cocok-untuk-game/"> <span class="screen-reader-text">5 Distro Linux Yang Cocok Untuk Game</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[<p><strong>1.<a href="https://store.steampowered.com/steamos/"> Steam OS</a></strong></p>
+<p style="text-align: justify;">Mari kita mulai&nbsp; dengan Steam OS. Ini adalah salah satu distro game terpopuler saat ini. Ini karena ini dikembangkan dan di maintenant oleh Valve.</p>
+<p style="text-align: justify;">Berbasis pada OS Debian 8 dan menggunakan lingkungan desktop GNOME. Untuk membuatnya nyaman bagi para gamer, ini mendukung berbagai jenis joystick, gamepad, dan kartu grafis setelah pemasangan. Anda dapat melanjutkan dan menginstal driver untuk perangkat keras Anda secara manual jika tidak didukung.</p>
+<p style="text-align: justify;">Menginstal Steam OS sudah diinstal sebelumnya dengan Steam dan banyak game dari Steam Store. Semuanya dirancang dan disempurnakan dengan mempertimbangkan game, jadi Anda tidak perlu menginstal apa pun untuk bermain game di Steam.</p>
+<p style="text-align: justify;">Sayangnya, ini tidak disarankan jika Anda memiliki PC lama karena persyaratan perangkat keras yang tinggi. Namun bagi penggemar game, hal tersebut lumrah, mengingat game &#8211; game masa kini yang memang membutuhkan hardware yang lebih baru dan spesifikasi yang tinggi.</p>
+<p><a href="https://store.steampowered.com/steamos/"><img loading="lazy" class="aligncenter wp-image-1227 size-large" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/steamos-1-1024x640.png" alt="" width="1024" height="640" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/steamos-1-1024x640.png 1024w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/steamos-1-300x188.png 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/steamos-1-768x480.png 768w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/steamos-1.png 1600w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p><strong>2. <a href="https://ualinux.com/en/ubuntu-gamepack">Ubuntu GamePack</a></strong></p>
+<p style="text-align: justify;">Distro Linux lain adalah Ubuntu GamePack. Ini bukan distro Ubuntu biasa tetapi lebih berbasis pada Ubuntu.</p>
+<p style="text-align: justify;">Hal tentang Ubuntu GamePack tidak memiliki game yang diinstal sebelumnya seperti Steam OS. Namun, ini sudah diinstal sebelumnya dengan klien Steam, Wine, PlayOnLinux, dan Lutris. Ini seperti persimpangan jalan tempat game di Linux, Windows, Konsol, dan Steam bisa dimainkan.</p>
+<p style="text-align: justify;">Ini membuatnya menjadi OS hybrid dalam arti tertentu, terutama karena ini juga mendukung Oracle Java dan Adobe Flash. Ini berarti bermain game online juga dimungkinkan. Faktanya, ada lebih dari 6 ribu game Linux dan Windows yang dijamin akan diluncurkan di Ubuntu GamePack.</p>
+<p style="text-align: justify;">Jika Anda pernah mencoba Ubuntu sebelumnya dan merasa nyaman dengannya, gunakan distro ini.</p>
+<p style="text-align: justify;"><a href="https://ualinux.com/en/ubuntu-gamepack"><img loading="lazy" class="aligncenter wp-image-1228 " src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/ubuntugamepack-1.jpg" alt="" width="888" height="666" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/ubuntugamepack-1.jpg 640w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/ubuntugamepack-1-300x225.jpg 300w" sizes="(max-width: 888px) 100vw, 888px" /></a></p>
+<p><strong>3. <a href="https://labs.fedoraproject.org/en/games/">Fedora Games Spin</a></strong></p>
+<p>Fedora Games Spin&nbsp; distro dirancang untuk para gamer. Fakta bahwa ada ribuan game yang sudah diinstal didalam distro ini dengan tools untuk menginstal game yang lebih banyak membuatnya layak untuk di coba.</p>
+<p>Game yang sudah diinstal di distro berkisar dari First Person, Real Time Strategy, dan banyak lagi. Semuanya tersedia untuk menunjang kegiatan bergame anda.</p>
+<p>Tidak seperti kebanyakan distro Linux, ini cepat, ringan, dan stabil.</p>
+<p>Jika anda masih ingin memiliki game PlayOnLinux, Wine, atau Steam, Anda harus menginstalnya secara manual karena tidak diinstal sebelumnya secara default. Selain itu, Anda juga perlu menginstal driver baru karena tidak disertakan dengan instalasi.</p>
+<p>Jika Anda mencari distro Linux game dan merasa nyaman dengan lingkungan desktop XFCE, ini cocok untuk Anda.</p>
+<p><a href="https://labs.fedoraproject.org/en/games/"><img loading="lazy" class="aligncenter wp-image-1229 size-full" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/fedoragamesspin-1.jpg" alt="" width="1280" height="720"></a></p>
+<p><strong>4. <a href="https://sparkylinux.org/tag/game/">SparkyLinux &#8211; Gameover Edition</a></strong></p>
+<p style="text-align: justify;">Distro ini sudah memiliki banyak sekali game pra-instal (sudah terintall di system) yang dapat Anda mainkan, tetapi program APTus Gamer menawarkan Anda lebih banyak opsi untuk bermain. Ini berisi daftar emulator yang dapat Anda instal di sistem Anda. Namun, jika Anda ingin bermain game di Steam, PlayOnLinux, atau Wine, Anda harus menginstalnya secara manual karena game-game tersebut belum terpasang sebelumnya.</p>
+<p style="text-align: justify;">Secara keseluruhan, jika Anda adalah seorang gamer yang rajin bermain game dengan emulator, Anda bisa menginstal SparkyLinux &#8211; edisi Gameover.</p>
+<p><a href="https://sparkylinux.org/sparkylinux-4-3-special-editions/"><img loading="lazy" class="aligncenter wp-image-1232 " src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/sparky-gameover-1-1.png" alt="" width="913" height="684" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/sparky-gameover-1-1.png 800w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/sparky-gameover-1-1-300x225.png 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/sparky-gameover-1-1-768x575.png 768w" sizes="(max-width: 913px) 100vw, 913px" /></a></p>
+<p><strong>5. <a href="https://sourceforge.net/projects/mgame/">Manjaro Gaming Edition</a></strong></p>
+<p style="text-align: justify;">Sebenarnya Manjaro Gaming Edition ini adalah Distro unofficial (tidak resmi) berbasis Manjaro, makanya tidak ditemukan di website resmi Manjaro. Manjaro Gaming Edition didedikasikan untuk para gamer yang cenderung membuat konten. Kami dapat mengatakan bahwa ini untuk para gamer yang menyukai pembuatan konten karena ini sudah diinstal dengan tools untuk membuat konten.</p>
+<p style="text-align: justify;">Beberapa di antaranya termasuk Audacity, aplikasi streaming, alat tangkapan layar, perangkat lunak chatting, dan banyak lagi.</p>
+<p style="text-align: justify;">Salah satu hal yang menjadikan Manjaro OS yang harus Anda pertimbangkan adalah kenyataan bahwa ini sudah diinstal dengan driver kartu grafis populer. Mereka tidak hanya diperbarui secara berkala tetapi dapat dioptimalkan untuk pengalaman bermain game yang lebih baik.</p>
+<p style="text-align: justify;">Ini juga sudah diinstal dengan emulator seperti Dolphin, DOSbox, FCEUX, Kega Fusion, PCSX, PCSX2, PPSSPP, RetroArch, Stella, VBA-M, Yabause, dan ZSNES. Jika Anda ingin menikmati pengalaman bermain game Anda di emulator ini, Manjaro Gaming Edition akan sempurna.</p>
+<p style="text-align: justify;">Satu-satunya masalah dengan distro ini adalah kenyataan bahwa ini adalah distro berbasis Linux Arch. Jika Anda ingin bermain game uap, Anda harus menginstal klien Steam secara manual terlebih dahulu. Tetapi karena klien Steam tidak didukung oleh Arch, akan ada masalah di sana-sini.</p>
+<p style="text-align: justify;">Secara umum, gamer yang menyukai kreasi konten kemungkinan besar akan cocok dengan anda.</p>
+<p><img loading="lazy" class="aligncenter wp-image-1234 size-large" src="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/manjarogamingedition-1-1024x576.png" alt="" width="1024" height="576" srcset="https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/manjarogamingedition-1-1024x576.png 1024w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/manjarogamingedition-1-300x169.png 300w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/manjarogamingedition-1-768x432.png 768w, https://nmbayu.github.io/wordpress/wp-content/uploads/2020/10/manjarogamingedition-1.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p>Memilih distro Linux terbaik untuk bermain game mungkin tampak menantang, tetapi memeriksa ulasan seperti ini akan memberi anda pemahaman yang lebih dalam tentang distro mana yang cocok untuk kebutuhan game anda.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://nmbayu.github.io/wordpress/2020/10/03/5-distro-linux-yang-cocok-untuk-game/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cara Mengatasi Peninjauan Adsense Inventaris Berharga</title>
+		<link>https://nmbayu.github.io/wordpress/2020/01/12/cara-mengatasi-peninjauan-adsense-inventaris-berharga/</link>
+					<comments>https://nmbayu.github.io/wordpress/2020/01/12/cara-mengatasi-peninjauan-adsense-inventaris-berharga/#respond</comments>
+		
+		<dc:creator><![CDATA[nmbayu]]></dc:creator>
+		<pubDate>Sun, 12 Jan 2020 03:46:44 +0000</pubDate>
+				<category><![CDATA[Teknologi]]></category>
+		<guid isPermaLink="false">https://nmbayu76.eu.org/?p=749</guid>
+
+					<description><![CDATA[Peraturan baru dari AdSense lumayan menyulitkan untuk publisher AdSense saat ini. Paling utama kepada publisher AdSense yang baru- baru saja bermain di dunia periklanan ini. Kenapa? Sebab bila kita ingin menambahkan web baru kita di account AdSense, Itu membuat kita mendapat peninjauan kembali seperti baru mendaftar Google AdSense. Dan ini menyebabkan kebanyakan publisher membuat akun &#8230;<p class="read-more"> <a class="" href="https://nmbayu.github.io/wordpress/2020/01/12/cara-mengatasi-peninjauan-adsense-inventaris-berharga/"> <span class="screen-reader-text">Cara Mengatasi Peninjauan Adsense Inventaris Berharga</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[<p style="text-align: justify;">Peraturan baru dari AdSense lumayan menyulitkan untuk publisher AdSense saat ini. Paling utama kepada publisher AdSense yang baru- baru saja bermain di dunia periklanan ini.</p>
+<p style="text-align: justify;">Kenapa? Sebab bila kita ingin menambahkan web baru kita di account AdSense, Itu membuat kita mendapat peninjauan kembali seperti baru mendaftar Google AdSense. Dan ini menyebabkan kebanyakan publisher membuat akun baru ketimbang menambahkannya.</p>
+<p style="text-align: justify;">Permasalahan utama yang kerap ditemui para publisher AdSense pada dikala mereview web baru di account AdSense ialah penolakan pada Inventaris Berharga</p>
+<p style="text-align: justify;">Kebanyakan web yang di tinjau mendapat penolakan inventaris berharga, ialah penolakan seberapa bagus mutu web kita. Disini penolakan inventaris berharga ada 2 macam. Awal penolakan inventaris berharga yang lagi dalam pengerjaan, serta yang kedua karena tidak terdapatnya konten. Apa maksud dari kedua penolakan tersebut? Berikut penjelasannya :</p>
+<p style="text-align: justify;"><strong>1  Penolakan Iventaris Berharga : Yang Sedang Dalam Pengerjaan atau DIbuat</strong></p>
+<p style="text-align: justify;">Inventaris berharga sedang dalam pengerjaan atau dibuat ( dalam bahasa inggris Valuable Inventory: Under Construction) ialah dalam uraian AdSense disini dipaparkan iklan AdSense tidak bisa jadi ditampilkan pada halaman ataupun navigasi dengan kontennya memang direncanakan dibuat susah ataupun menyebalkan. Ini mencakup halaman ataupun aplikasi yang masih dalam pengerjaan ataupun menuju ke pesan error.</p>
+<p style="text-align: justify;"><strong>Pemecahan Permasalahan</strong></p>
+<p style="text-align: justify;">Berdasarkan pengalaman, coba cek navigasi web. Disini pada biasanya navigasi teediri dari 2 macam. navigasi halaman about, contact serta lain- lain, serta navigasi yang menuju ke label post ataupun sejenisnya. Pada poin ini, kita fokus kepada navigasi halaman about, contact serta lain- lain.</p>
+<p style="text-align: justify;">Bila anda belum membuat halaman navigasi tersebut segeralah dibuat serta jangan lupa untuk submit halaman navigasi semacam about, contact serta lain- lain ke console supaya dengan cepat terindex mesin telusur google. Halaman itu biasanya terdiri dari:</p>
+<ul style="text-align: justify;">
+<li>About</li>
+<li>Contact</li>
+<li>Privacy Policy</li>
+<li>Disclaimer</li>
+<li>Terms of Service</li>
+<li>Sitemap</li>
+<li>DMCA</li>
+</ul>
+<p style="text-align: justify;">Metode kedua, bila anda telah membuat navigasi halaman about, contact serta yang lain tapi tetap belum sukses, coba kamu memakai template web yang navigasinya fokus kepada halaman web semacam about, contact serta lain- lain. Artinya template yang memakai sarana 1 navigasi saja.</p>
+<p style="text-align: justify;">Atau anda dapat pula memakai template dengan 2 navigasi asalkan navigasi yang berisi about, contact serta lain- lain ditaruh di tempat sangat atas( header) ataupun di dasar sendiri( footer). Tidak dianjurkan untuk ditaruh ditengah- tengah tampilan web.</p>
+<p style="text-align: justify;">Ketiga bila masih belum dapat dengan metode kedua diatas, ganti alamat navigasi kedua yang menuju ke label ataupun jenis konten, ke link konten langsung. Jadi tidak menuju ke label maupun kategori web. Dapat pula ditujukan ke arsip web, asalkan jangan ke label ataupun jenis web.</p>
+<p style="text-align: justify;"><strong>2. Penolakan Inventaris Berharga : Tidak Ada Konten</strong></p>
+<p style="text-align: justify;">Penolakan tipe ini terbilang sangat gampang dalam pemecahannya. Seperti yang dijelaskan AdSense, iklan tidak bisa ditampilkan pada halaman ataupun aplikasi yang kontennya tidak memberikan manfaat atau manfaat yang diberikan hanya sedikit. Yang dapat diartikan dalam artian ini ialah kita disuruh untuk senantiasa melakukan pembaharuan konten kita sepanjang masa peninjauan berlangsung.</p>
+<p style="text-align: justify;"><strong>Pemecahan Permasalahan</strong></p>
+<p style="text-align: justify;">Sebenarnya pemecahan masalah ini sangat gampang, kita hanya disuruh untuk menambah konten 2 atau 3 konten dalam sehari, jika masih belum ada jawaban kita menambahkan konten kita lagi di keesokan harinya. Sampai akhirnya Adsense menyetujuinya.</p>
+<p style="text-align: justify;">Demikian cara mengenai pemecahan masalah mengenai peninjauan Adsense inventaris berharga. Mungkin ini tidak 100% menjamin untuk disetujui oleh Adsense, karena bisa saja ada masalah lain seperti domain yang bermasalah, dan adanya duplikat konten yang terdeteksi google search console, semoga bermanfaat.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://nmbayu.github.io/wordpress/2020/01/12/cara-mengatasi-peninjauan-adsense-inventaris-berharga/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Trend Perkembangan Teknologi AI Pada Otomotif</title>
+		<link>https://nmbayu.github.io/wordpress/2020/01/09/trend-perkembangan-teknologi-ai-pada-otomitif/</link>
+					<comments>https://nmbayu.github.io/wordpress/2020/01/09/trend-perkembangan-teknologi-ai-pada-otomitif/#respond</comments>
+		
+		<dc:creator><![CDATA[nmbayu]]></dc:creator>
+		<pubDate>Thu, 09 Jan 2020 06:36:41 +0000</pubDate>
+				<category><![CDATA[Teknologi]]></category>
+		<guid isPermaLink="false">https://nmbayu76.eu.org/?p=706</guid>
+
+					<description><![CDATA[Baru-baru ini, Intel meluncurkan chip baru yang mendukung teknologi AI (Artificial Intelligence) atau dalam bahasa Indonesianya berarti Kecerdasan Buatan , chip tersebut dinamakan Pohoiki Beach yang dapat meningkatkan kecepatan komputasi hingga 10.000 kali lebih cepat menggunakan 8 juta jaringan saraf. Penggunaan chip ini cenderung untuk penggunaan dalam industri otomotif. Dengan meningkatnya penggunaan sensor seperti LiDAR &#8230;<p class="read-more"> <a class="" href="https://nmbayu.github.io/wordpress/2020/01/09/trend-perkembangan-teknologi-ai-pada-otomitif/"> <span class="screen-reader-text">Trend Perkembangan Teknologi AI Pada Otomotif</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[<p style="text-align: justify;">Baru-baru ini, Intel meluncurkan chip baru yang mendukung teknologi AI (Artificial Intelligence) atau dalam bahasa Indonesianya berarti Kecerdasan Buatan , chip tersebut dinamakan<a href="https://newsroom.intel.com/news/intels-pohoiki-beach-64-chip-neuromorphic-system-delivers-breakthrough-results-research-tests/#gs.qp90iz"> Pohoiki Beach</a> yang dapat meningkatkan kecepatan komputasi hingga 10.000 kali lebih cepat menggunakan 8 juta jaringan saraf. Penggunaan chip ini cenderung untuk penggunaan dalam industri otomotif. Dengan meningkatnya penggunaan sensor seperti <a href="https://id.wikipedia.org/wiki/LIDAR">LiDAR</a> dan sensor ultrasonik serta kamera resolusi tinggi untuk mengembangkan kendaraan generasi berikutnya, industri perangkat keras AI dapat mengusahakan hasil yang signifikan pada tahun-tahun mendatang.</p>
+<p style="text-align: justify;">Teknologi AI pada Pasar Otomotif akan mengalami pertumbuhan yang luar biasa, diperkirakan lebih dari 38% <a href="https://bolasalju.com/artikel/edukasi/laju-pertumbuhan-majemuk-tahunan-cagr/">CAGR</a> pada tahun 2026. Meningkatnya permintaan untuk mesin yang hemat bahan bakar mendorong permintaan untuk pasar.</p>
+<p style="text-align: justify;">Pasar otomotif terlihat peningkatan konstan dalam permintaan untuk sistem penggerak bertenaga AI. Bahkan, beberapa produsen mobil sekarang berupaya memperbarui teknologi dalam mengemudi mereka untuk menawarkan pelanggan pengalaman berkendara yang lebih nyaman dan aman. Meningkatnya adopsi solusi teknologi AI pada otomotif diperkirakan akan mendorong pertumbuhan segmen perangkat keras AI di tahun-tahun mendatang. Kemajuan yang sedang berlangsung dalam perangkat keras pemrosesan komputer seperti <a href="https://www.nvidia.com/en-us/deep-learning-ai/solutions/">GPU AI</a> khusus dan <a href="https://inet.detik.com/konsultasi-gadget/d-3072199/apa-maksud-dari-system-on-chip">Sistem-on-Chips (SoC)</a> hemat energi dapat secara besar-besaran meningkatkan daya komputasi pada mesin otomotif.</p>
+<p style="text-align: justify;">Rambu &#8211; rambu lalu lintas pun juga ikut terimbas pada teknologi ini. Rambu &#8211; rambu lalu lintas tersebut berbasis pada teknologi proses, pengenalan gambar / sinyal diperkirakan dapat menciptakan pertumbuhan yang cukup besar selama tahun-tahun mendatang. Kekhawatiran yang meningkat terkait kecelakaan di jalan dan kecepatan tinggi telah mengakibatkan pada kebutuhan akan rambu lalu lintas &amp; indikator batas kecepatan. Sistem ini menggunakan teknologi pengenalan gambar / sinyal untuk mendeteksi sinyal lalu lintas dan meminimalkan kecepatan kendaraan secara otomatis. Dan ini dapat mendorong permintaan jangka panjang.</p>
+<p style="text-align: justify;">Baru-baru ini, Komisi Eropa memaksa para produsen otomotif untuk menyediakan fitur pengenalan gambar / sinyal bawaan atas rambu lalu lintas di kendaraan mereka yang harus di implementasikan pada tahun 2022. Ini akan membantu meminimalkan kasus-kasus mengemudi dengan ugal &#8211; ugalan dan mendukung gagasan keselamatan di jalan.</p>
+<p style="text-align: justify;">Teknologi yang berbasis AI akan terus berkembang pesat pada masa &#8211; masa yang akan datang, bukan hanya untuk otomotif, melainkan untuk semua yang berkaitan dalam kehidupan sehari &#8211; hari manusia.</p>
+<p style="text-align: justify;">
+<p style="text-align: justify;">
+]]></content:encoded>
+					
+					<wfw:commentRss>https://nmbayu.github.io/wordpress/2020/01/09/trend-perkembangan-teknologi-ai-pada-otomitif/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bagaimana Teknologi Mengubah Sistem Manufaktur Industri</title>
+		<link>https://nmbayu.github.io/wordpress/2019/12/21/bagaimana-teknologi-mengubah-sistem-manufaktur-industri/</link>
+					<comments>https://nmbayu.github.io/wordpress/2019/12/21/bagaimana-teknologi-mengubah-sistem-manufaktur-industri/#respond</comments>
+		
+		<dc:creator><![CDATA[nmbayu]]></dc:creator>
+		<pubDate>Sat, 21 Dec 2019 01:14:56 +0000</pubDate>
+				<category><![CDATA[Teknologi]]></category>
+		<guid isPermaLink="false">https://nmbayu76.eu.org/?p=375</guid>
+
+					<description><![CDATA[Teknologi saat ini adalah kekuatan yang secara radikal mengubah sistem manufaktur industri. Transformasi yang terjadi sangat radikal, pada kenyataannya, sumber mengklaim bahwa kita telah memasuki revolusi industri tingkat keempat. Dan revolusi ini, adalah simbol kebangkitan teknologi manufaktur. Mari kita lihat beberapa cara teknologi mempengaruhi sistem manufaktur industri. 3 Trend Teknologi Sistem Manufaktur Revolusioner 1. &#160; &#8230;<p class="read-more"> <a class="" href="https://nmbayu.github.io/wordpress/2019/12/21/bagaimana-teknologi-mengubah-sistem-manufaktur-industri/"> <span class="screen-reader-text">Bagaimana Teknologi Mengubah Sistem Manufaktur Industri</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[<p style="text-align: justify;">Teknologi saat ini adalah kekuatan yang secara radikal mengubah sistem manufaktur industri.</p>
+<p style="text-align: justify;">Transformasi yang terjadi sangat radikal, pada kenyataannya, sumber mengklaim bahwa kita telah memasuki revolusi industri tingkat keempat. Dan revolusi ini, adalah simbol kebangkitan teknologi manufaktur.</p>
+<p style="text-align: justify;">Mari kita lihat beberapa cara teknologi mempengaruhi sistem manufaktur industri.</p>
+<h4><strong>3 Trend Teknologi Sistem Manufaktur Revolusioner</strong></h4>
+<p style="text-align: justify;"><strong>1. &nbsp; 3D Printing</strong></p>
+<p style="text-align: justify;">3D Printing telah memungkinkan para inovator dan penemu untuk memperluas jangkauan mereka dan membuat produk mereka secara global.</p>
+<p style="text-align: justify;">Produk pertama kali dibuat menggunakan teknologi 3D, yang memungkinkan presisi yang lebih besar, lebih sedikit pemborosan dan waktu pengerjaan yang lebih singkat. Teknologi 3D Printing dengan cepat meningkat dan sekarang dapat diproduksi menggunakan bahan kompleks tanpa bergantung pada mesin yang kompleks.</p>
+<p style="text-align: justify;">Kemampuannya termasuk menggunakan akrilik, stainless steel dan bahkan jaringan manusia.</p>
+<p style="text-align: justify;">Ini juga memberikan konsumen kontrol dan input yang lebih besar dengan membina kerja sama dengan produsen.</p>
+<p style="text-align: justify;">3D sekarang merevolusi proses di berbagai industri. Kemampuannya mengubah segalanya mulai dari bagaimana mainan dibuat, hingga memberi solusi industri medis dalam melaksanakan operasi dan membuat diagnosa lebih awal dari sebelumnya.</p>
+<p><strong>2. Cetakan Injeksi</strong></p>
+<p style="text-align: justify;">Cetakan injeksi adalah proses yang pertama kali dipatenkan pada akhir 1800-an. Merupakan alat yang tumbuh pesat setelah Perang Dunia II.</p>
+<p style="text-align: justify;">Tetapi kemajuan manufaktur hari ini telah membuatnya lebih populer daripada sebelumnya. Tidak hanya memiliki kemampuan untuk membuat bentuk yang kompleks, tetapi juga memiliki biaya yang ekonomis.</p>
+<p style="text-align: justify;">Kecenderungan ke arah metode manufaktur yang berkelanjutan telah membuatnya semakin populer. Karena proses tersebut menghasilkan sedikit sisa, dan sisa apa yang dihasilkannya dapat dilebur dan digunakan kembali, menjadikan dampak lingkungan yang dihasilkan minimal.</p>
+<p style="text-align: justify;">Cetakan injeksi plastik presisi tinggi telah menjadi sistem manufaktur yang disukai. Praktis menghasilkan tanpa limbah, dapat dicetak menjadi berbagai bentuk dan efisien dan lebih murah.</p>
+<p><strong>3. Robotik</strong></p>
+<p style="text-align: justify;">Robotika telah lama menjadi kekuatan revolusioner di dunia manufaktur. Misalnya, penggunaan robotika telah merevolusi industri otomotif selama bertahun-tahun.</p>
+<p style="text-align: justify;">Dengan munculnya robotika cerdas yang lebih teliti dan efisien, muncul kekhawatiran akan lapangan kerja yang dipicu oleh robot &#8211; robot cerdas tersebut.</p>
+<p style="text-align: justify;">Meskipun memang benar bahwa robot dapat bekerja untuk periode yang lebih lama daripada manusia, mengurangi kesalahan manusia dan memiliki presisi yang lebih besar, dan lebih hemat biaya, mereka tidak menghilangkan kebutuhan manusia sama sekali.</p>
+<p style="text-align: justify;">Teknologi pintar tergantung pada manusia, tetapi lebih bergantung pada kecerdasan kita, bukan tenaga kerja. Dan inilah mengapa pendidikan telah menjadi kebutuhan yang semakin kompetitif untuk membangun nilai Anda di tempat kerja.</p>
+<p style="text-align: justify;">Robot membuat banyak pekerjaan, di rumah dan di tempat kerja menjadi lebih mudah dan lebih efisien daripada sebelumnya. Dan karena ini, Anda cenderung melihat ketergantungan pada robotika akan terus berkembang.</p>
+<p style="text-align: justify;">Apa Rencana Selanjutnya untuk Sistem Manufaktur Industri?</p>
+<p style="text-align: justify;">Meskipun begitu banyak pertumbuhan telah terjadi di industri manufaktur, kita masih berada di tepi transformasi yang semakin pesat.</p>
+<p style="text-align: justify;">Ketika kecerdasan manusia dan teknologi terus berpasangan, maka tidak ada batasan kemungkinan di bidang manufaktur alias akan terus berkembang.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://nmbayu.github.io/wordpress/2019/12/21/bagaimana-teknologi-mengubah-sistem-manufaktur-industri/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Top 10 Trend Teknologi di 2019</title>
+		<link>https://nmbayu.github.io/wordpress/2019/12/12/top-10-trend-teknologi-di-2019/</link>
+					<comments>https://nmbayu.github.io/wordpress/2019/12/12/top-10-trend-teknologi-di-2019/#respond</comments>
+		
+		<dc:creator><![CDATA[nmbayu]]></dc:creator>
+		<pubDate>Thu, 12 Dec 2019 05:27:50 +0000</pubDate>
+				<category><![CDATA[Teknologi]]></category>
+		<guid isPermaLink="false">https://nmbayu76.eu.org/?p=124</guid>
+
+					<description><![CDATA[Teknologi berubah dengan cepat, dan selalu menyenangkan untuk melihat apa yang baru dan sedang dikembangkan untuk dirilis dalam beberapa tahun mendatang. Kita akan melihat banyak bentuk teknologi baru menyusup ke ruang kerja dan rumah, dan 2019 kemungkinan akan menambah beberapa jenis produk konsumen baru serta inovasi perusahaan. Tahun ini, ada kemungkinan bahwa kecerdasan buatan akan &#8230;<p class="read-more"> <a class="" href="https://nmbayu.github.io/wordpress/2019/12/12/top-10-trend-teknologi-di-2019/"> <span class="screen-reader-text">Top 10 Trend Teknologi di 2019</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[<p style="text-align: justify;">Teknologi berubah dengan cepat, dan selalu menyenangkan untuk melihat apa yang baru dan sedang dikembangkan untuk dirilis dalam beberapa tahun mendatang.<br />
+Kita akan melihat banyak bentuk teknologi baru menyusup ke ruang kerja dan rumah, dan 2019 kemungkinan akan menambah beberapa jenis produk konsumen baru serta inovasi perusahaan.<br />
+Tahun ini, ada kemungkinan bahwa kecerdasan buatan akan lebih umum dipakai karena terlibat dengan pemasaran, barang-barang pribadi, dan pemantauan perilaku secara keseluruhan.<br />
+Di antara trend utama lainnya dalam teknologi, perusahaan kecil atau sedang semakin banyak menawarkan produk unik sebagai cara untuk bersaing dengan perusahaan besar, seperti Amazon. Pesaingnya mencari untuk menggunakan pendekatan satu ukuran untuk semua sebagai model dan menawarkan lebih banyak layanan, termasuk sistem berbasis cloud dan layanan streaming.<br />
+Ini juga mencakup penyediaan konektivitas yang lebih besar antara perangkat pintar, baik di tempat kerja atau di rumah, apa pun merek yang Anda pilih sebagai konsumen.<br />
+Konsumen diharapkan untuk berinvestasi $ 398 miliar dalam teknologi seperti yang diperkirakan oleh Consumer Technology Association (CTA), suatu rekor tertinggi untuk pengeluaran.<br />
+Saatnya kita semua bersiap-siap untuk merangkul masa depan, berikut adalah 10 trend industri teknologi teratas yang diharapkan untuk tahun 2019:</p>
+<ol style="text-align: justify;">
+<li>Layanan streaming<br />
+2. Teknologi rumah pintar<br />
+3. Speaker pintar dengan lebih banyak fitur<br />
+4. Mengemudi sendiri dan mobil berkinerja lebih baik<br />
+5. Tampilan lebih besar, lebih baik<br />
+6. Headset VR yang lebih baik dan penggunaan bisnis<br />
+7. Penurunan smartphone<br />
+8. Jaringan 5G yang lebih cepat<br />
+9. Blockchain-for-good<br />
+10. Augmented reality</li>
+</ol>
+<p style="text-align: justify;">Sekarang mari kita uraikan setiap tren dan lihat bagaimana mereka diharapkan mengubah lanskap teknologi selama sekitar satu tahun ke depan.</p>
+<ol>
+<li style="text-align: justify;"><strong> Layanan streaming</strong><br />
+Dengan prevalensi TV pintar, konsumen mencari lebih banyak konten dan lebih banyak cara untuk menontonnya. Netflix dan Hulu menetapkan standar untuk layanan streaming, tetapi industri streaming yang lebih besar terus tumbuh dan semakin banyak platform yang muncul. Ini memberi ruang bagi jenis konten baru untuk dikembangkan dan bagi pemirsa untuk menikmati acara yang mungkin tidak ditayangkan di jaringan kabel tradisional.<br />
+Sementara video telah melihat pertumbuhan paling pesat di antara layanan streaming, ada sektor lain yang ingin mengubah cara kita mengonsumsi media. Sebagai contoh, langganan musik telah membuatnya lebih mudah dari sebelumnya untuk mendengarkan musik yang kita sukai dan menemukan artis baru, dan layanan seperti Spotify dan Amazon Music diperkirakan akan berkembang sepanjang tahun.</li>
+<li style="text-align: justify;"><strong> Teknologi rumah pintar</strong><br />
+Setelah layanan streaming, teknologi rumah pintar diharapkan membuat dampak terbesar di antara tren teknologi pada tahun 2019. Ini termasuk perangkat seperti termostat pintar, pencahayaan, dan detektor asap yang dibangun untuk lebih efisien. Sementara teknologi rumah pintar telah berlangsung untuk waktu sekarang, tahun ini menandai perbedaan dalam bagaimana teknologi ini dikemas melalui branding.<br />
+Di masa lalu, perangkat ini dibuat untuk ada secara terpisah dari perusahaan lain, tetapi pengguna menemukan cara untuk menghubungkan perangkat dari berbagai perusahaan untuk menciptakan pengalaman yang lebih kohesif. Namun, menciptakan ekosistem yang paling efisien dan terbuka untuk perangkat pintar tetap menjadi tantangan, jadi akan menarik untuk melihat bagaimana berbagai platform dapat terhubung satu sama lain untuk fungsi yang lebih baik.</li>
+<li style="text-align: justify;"><strong> Speaker pintar dengan lebih banyak fitur</strong><br />
+Para ahli percaya bahwa konsumen cenderung membeli lebih banyak asisten rumah pintar tahun ini. Menurut CTA, ini sejalan dengan data yang menunjukkan pembelian speaker pintar telah meningkat sebesar 44% dari 2017. Karena perangkat lunak pengenalan suara telah menjadi lebih maju selama beberapa tahun terakhir, masuk akal bahwa konsumen ingin menghubungkan mereka ke item teknologi lainnya untuk melakukan segalanya mulai dari melakukan pencarian online hingga mengontrol perangkat rumah pintar lainnya.<br />
+Dengan teknologi yang lebih cerdas dan lebih banyak memori yang terpasang di speaker, Google Assistant kini telah diprogram untuk melakukan percakapan tanpa harus mengucapkan kata “bangun.”<br />
+Tidak hanya itu, Amazon Alexa sekarang dapat menyanyikan lagu pengantar tidur bayi Anda untuk membantu mereka tertidur. Pada tahun 2019, asisten suara ini tampaknya tidak terlalu menyukai perangkat keras dan lebih seperti makhluk hidup melalui peningkatan.</li>
+<li style="text-align: justify;"><strong> Mobil mengemudi sendiri dan mobil berkinerja lebih baik</strong><br />
+Apa yang dulu tampak seperti fiksi ilmiah sekarang lebih dekat dengan kenyataan daripada sebelumnya. Mungkin perlu waktu sebelum Anda mulai melihat mobil self-driving mengambil alih jalan raya, tetapi teknologi di dalam model-model terbaru telah membuat kemajuan yang berarti.<br />
+Misalnya, beberapa kemampuan kendaraan yang lebih baru telah mengurangi kemungkinan kecelakaan pada perjalanan Anda. Kita juga dapat melihat kendaraan barang dikendarai tanpa kemudi manusia di jalan TOL.<br />
+Interkonektivitas adalah fitur lain yang akan dimiliki kendaraan kami dalam beberapa tahun mendatang. Sudah dimungkinkan untuk menghubungkan ponsel Anda dengan mobil Anda yang mendukung Bluetooth, tetapi perkirakan teknologi ini akan maju bersama dengan pengenalan suara dan peralatan pintar yang ditingkatkan.<br />
+Lagi pula, sudah ada kendaraan yang mampu mengingatkan Anda untuk mengambil sekotak susu dengan menghubungkannya dengan kulkas pintar, sehingga kemungkinan hanya akan terbuka dari sana.</li>
+<li style="text-align: justify;"><strong> Tampilan lebih besar, lebih baik</strong><br />
+Selama beberapa tahun terakhir, TV pintar telah mengubah cara kita mengonsumsi media dan apa yang kita nikmati saat menonton dan kapan. Sekarang setelah perusahaan mengumpulkan data dan informasi konsumen dari layanan streaming dan kebiasaan dalam pembelian, TV akan menjadi lebih besar, lebih cerah, dan ya, bahkan lebih pintar dalam beberapa tahun mendatang.<br />
+Selain itu, ketika 4K menjadi lebih terjangkau dan tersebar luas, para pakar teknologi mencari inovasi terbaru dalam kualitas gambar: 8K. Unit-unit ini diharapkan akan tersedia di pasar dalam beberapa bulan ke depan dan dapat mengambil alih pembelian 4K pada tahun 2022. Dikombinasikan dengan streaming yang lebih baik, pengalaman hiburan di rumah akan menjadi lebih baik dari sebelumnya.</li>
+<li style="text-align: justify;"><strong> Headset VR yang lebih baik dan penggunaan bisnis</strong><br />
+Melalui game dan pengalaman mendalam, virtual reality terutama telah digunakan untuk tujuan hiburan selama beberapa tahun terakhir. Perusahaan dalam berbagai bidang menggunakannya, dari real estate sampai robotika, itu semua adalah bagian dari proyeksi pertumbuhan untuk industri secara keseluruhan dan juga perubahan dalam penggunaan teknologi<br />
+Menurut Business Insider, “VR dan augmented reality diproyeksikan akan tumbuh hingga $ 162 miliar pada tahun 2020, dan lebih banyak produk menargetkan penggunaan perusahaan.”<br />
+Headset VR akan menjadi lebih ringan dan lebih nyaman digunakan, dan konektivitas akan memungkinkan Anda untuk menggabungkan perangkat Anda dengan perangkat yang dapat dikenakan dan set TV Anda. Kita juga dapat melihat VR berinteraksi dengan ponsel dan aplikasi spesifik untuk lebih memperluas kemampuan teknologi yang berkembang pesat ini.</li>
+<li style="text-align: justify;"><strong> Penurunan smartphone</strong><br />
+Smartphone telah mendominasi pasar komunikasi, tetapi telah terjadi penurunan akhir-akhir ini. Sebagian dari ini adalah karena belum ada peningkatan besar dalam teknologi smartphone belakangan ini, dan banyak dari itu ada hubungannya dengan fakta bahwa Apple berinvestasi dalam bentuk teknologi lain untuk konsumen. Penjualan Android juga mengalami penurunan karena PC World melaporkan bahwa pembelian turun 0,7% dibandingkan kuartal terakhir pada 2018.<br />
+Meskipun ada beberapa perubahan dalam desain, seperti ponsel dua sisi dan layar lipat, banyak pembeli tidak menganggap biaya penggantian perangkat mereka sepadan.<br />
+Sekali lagi, koneksi dengan perangkat lain akan menjadi peningkatan bagi ponsel, dan kompatibilitasnya dengan perangkat yang lain dan VR akan lebih disorot daripada kemajuan besar dalam teknologi ponsel itu sendiri.</li>
+<li style="text-align: justify;"><strong> Jaringan 5G yang lebih cepat</strong><br />
+5G telah dikembangkan selama lebih dari satu dekade, dan teknologi yang muncul ini diharapkan paling berpengaruh di tingkat perusahaan pada tahun 2019. Selain menawarkan keamanan yang lebih besar, 5G akan memberikan kecepatan lebih cepat yang benar-benar hanya akan diperhatikan oleh perusahaan yg bergerak di sekitar set data yang besar.<br />
+Bagi konsumen rata-rata, perubahan kecepatan dari 30 milidetik (ms) menjadi hanya 1 ms tidak akan mudah dikenali, tetapi bagi perusahaan besar, ini dapat membuat perbedaan yang berarti ketika memproses data dalam jumlah besar.</li>
+<li style="text-align: justify;"><strong> Blockchain-for-good</strong><br />
+Sementara teknologi blockchain telah ada selama lebih dari satu dekade, cara penggunaannya diproyeksikan akan berubah pada tahun 2019. Sebuah tren baru yang disebut blockchain-for-good telah mengubah bagaimana teknologi ini dimasukkan ke dalam bisnis baru.<br />
+Proyek-proyek blockchain Fintech dan perbankan lebih banyak terlibat dalam platform media sosial seperti Twitter, membuatnya lebih mudah dari sebelumnya untuk menyelesaikan pembayaran online.<br />
+Perubahan ini membawa sejumlah standar etika baru yang telah dipromosikan oleh perusahaan seperti IBM dan Ford untuk melindungi orang-orang, yang sering tinggal di daerah miskin, yang memanen kobalt yang diperlukan untuk produksi blockchain. Ini juga akan memungkinkan pelacakan yang lebih baik dari kasus penipuan tertentu karena konsumen dapat melacak dengan lebih baik ke mana pembayaran mereka pergi. Perbaikan seperti ini dapat membantu meluncurkan blockchain menjadi yang utama tahun ini.<br />
+“Dalam beberapa tahun ke depan, kemungkinan besar kita akan melihat pengembangan organisasi amal yang didukung Blockchain, yang akan merevolusi seluruh proses, meningkatkan cara kerja distribusi amal … menyelamatkan dan meningkatkan kehidupan,” kata Forbes.</li>
+<li style="text-align: justify;"><strong> Augmented reality</strong><br />
+2019 juga diprediksi sebagai tahun augmented reality lepas landas. Bagi banyak orang, teknologi ini dipopulerkan dengan merilis game seluler Pokemon GO yang sangat populer. Namun, AR dapat tumbuh lebih mainstream dengan merilis dukungan WebAR Google Chrome, yang dapat menjadikan AR bagian dari pengalaman kita sehari-hari ketika menjelajahi web.<br />
+Seperti headset realitas virtual, kacamata AR hanya akan menjadi lebih ringan dan lebih mudah digunakan – dan lebih terjangkau untuk konsumen biasa. Plus, kemungkinan lebih banyak bisnis yang akan mulai melatih karyawan mereka dengan menggunakan AR, sehingga kami dapat mengharapkan peningkatan penjualan dari sisi korporat juga.</li>
+</ol>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://nmbayu.github.io/wordpress/2019/12/12/top-10-trend-teknologi-di-2019/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Web Hosting Gratis</title>
+		<link>https://nmbayu.github.io/wordpress/2019/12/12/web-hosting-gratis/</link>
+					<comments>https://nmbayu.github.io/wordpress/2019/12/12/web-hosting-gratis/#respond</comments>
+		
+		<dc:creator><![CDATA[nmbayu]]></dc:creator>
+		<pubDate>Thu, 12 Dec 2019 04:58:18 +0000</pubDate>
+				<category><![CDATA[Teknologi]]></category>
+		<guid isPermaLink="false">https://nmbayu76.eu.org/?p=118</guid>
+
+					<description><![CDATA[1.&#160; HelioHost 👍 CPanel berkualitas premium 👍 Kelengkapan software yang sangat lengkap 👍&#160;Disk space yang lumayan besar Dengan Spesifikasi : Disk space: 1GB &#124; Domain hosting: 1 &#124; Monthly traffic: Unlimited &#124; Subdomains: unlimited &#124; Email accounts: Unlimited &#124; FTP accounts: 1 &#124; MySQL databases: Unlimited Heliohost adalah penyedia hosting yang tidak berinduk pada perusahaan &#8230;<p class="read-more"> <a class="" href="https://nmbayu.github.io/wordpress/2019/12/12/web-hosting-gratis/"> <span class="screen-reader-text">Web Hosting Gratis</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[<p style="text-align: justify;"><strong>1.</strong>&nbsp; <a href="https://www.heliohost.org/"><strong>HelioHost</strong></a></p>
+<p style="text-align: justify;"><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f44d.png" alt="👍" class="wp-smiley" style="height: 1em; max-height: 1em;" /> CPanel berkualitas premium</p>
+<p style="text-align: justify;"><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f44d.png" alt="👍" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Kelengkapan software yang sangat lengkap</p>
+<p style="text-align: justify;"><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f44d.png" alt="👍" class="wp-smiley" style="height: 1em; max-height: 1em;" />&nbsp;Disk space yang lumayan besar</p>
+<p style="text-align: justify;">Dengan Spesifikasi :</p>
+<p style="text-align: justify;">
+<p style="text-align: justify;"><strong>Disk space: </strong>1GB | <strong>Domain hosting: </strong>1 | <strong>Monthly traffic: </strong>Unlimited | <strong>Subdomains:</strong> unlimited | <strong>Email accounts: </strong>Unlimited | <strong>FTP accounts: </strong>1 | <strong>MySQL databases: </strong>Unlimited</p>
+<p style="text-align: justify;">
+<p style="text-align: justify;"><a href="https://www.heliohost.org/">Heliohost</a> adalah penyedia hosting yang tidak berinduk pada perusahaan hosting manapun. Benar &#8211; benar merupakan free hosting yang berbasis komunitas. Tidak ada sama sekali hosting yang berbayar, hanya mereka mencantumkan sumbangan dana dengan rela bagi setiap anggota komunitas,</p>
+<p style="text-align: justify;"><a href="https://www.heliohost.org/">Heliohost</a> merupakan perusahaan free hosting yang sudah berjalan kurang lebih 12 tahun dalam menjalankan program web hostingnya, merupakan organisasi non profit.</p>
+<p style="text-align: justify;">Untuk faeture mereka menyuguhkan CPanel yang sama dengan CPanel-Cpanel pada hosting berbayar (premium), sangat lengkap dilengkapi dengan Softaculous, Django, Python, Perl, Ruby dan lain sebagainya. Fitur keamananan juga lengkap bahkan bisa menggunakan free SSL dari <a href="https://letsencrypt.org/id/">Let&#8217;s Encrypt</a> dan <a href="https://www.cloudflare.com/">Cloudflare</a>.</p>
+<p style="text-align: justify;"><strong>2. <a href="https://infinityfree.net/">InfinityFree</a></strong></p>
+<p style="text-align: justify;">Termasuk salah satu free web hosting terbaik.</p>
+<p style="text-align: justify;"><strong>Dengan Spesifikasi : </strong></p>
+<p style="text-align: justify;"><strong>Disk space: </strong>Unlimited | <strong>Domain hosting: </strong>Unlimited | <strong>Monthly traffic: </strong>Unlimited Bandwidth | <strong>Subdomains: </strong>Unlimited | <strong>Email accounts: </strong>10 | <strong>FTP accounts: </strong>1 | <strong>MySQL databases: </strong>400</p>
+<p style="text-align: justify;"><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f44d.png" alt="👍" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Storage dan Bandwidth yang tak terbatas</p>
+<p style="text-align: justify;"><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f44d.png" alt="👍" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 400 MySQL database</p>
+<p style="text-align: justify;"><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f44e.png" alt="👎" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Standard load time</p>
+<p style="text-align: justify;">Dalam dunia hosting gratis, <a href="https://app.infinityfree.net">Infinityfree</a> memberi kesan menonjol yang baik. Memiliki situs web yang dirancang dengan baik yang membuat kesan positif.</p>
+<p style="text-align: justify;">Perusahaan Web Hosting ini telah berkecimpung selama lebih dari enam tahun, mengklaim memiliki 300.000 pengguna dan menawarkan ruang disk dan bandwidth tak terbatas (walaupun ada ketentuannya).Berinduk pada <a href="https://ifastnet.com/">Ifastnet</a>. Anda dapat meng-host domain sebanyak yang Anda inginkan tetapi Anda hanya akan mendapatkan 10 akun email dan satu FTP untuk mengunggah konten Anda.</p>
+<p style="text-align: justify;">Tidak ada biaya tersembunyi dan meskipun statusnya gratis, Anda akan mendapatkan jaminan uptime 99,9% (lebih atau kurang sendiri jika situs Anda down) dan installer Softaculous Script yang populer dengan lebih dari 400 aplikasi.</p>
+<p style="text-align: justify;">Terus terang saya kaget melihat bahwa daftar fitur-fiturnya termasuk 400 database MySQL (di mana yang lain hanya memberikan sedikit, jika sama sekali), layanan DNS gratis, SSL gratis <a href="https://letsencrypt.org/id/">(Let&#8217;s Encrypt)</a></p>
+<p style="text-align: justify;">Seperti yang diharapkan,<a href="https://infinityfree.net/"> Infinityfree</a> menawarkan hosting berbayar murah <a href="https://infinityfree.net/premium/">(Infinityfree Ultimate Premium)</a> yang menawarkan segalanya tanpa batas untuk $ 6,90 per bulan, layak ditingkatkan karena Anda juga akan mendapatkan akses ke<a href="https://www.cloudflare.com"> CloudFlare</a> Railgun, yang mengurangi waktu muat secara signifikan.</p>
+<p style="text-align: justify;"><strong>3</strong>. <a href="https://www.000webhost.com/"><strong>000Webhost</strong></a></p>
+<p style="text-align: justify;">Dengan Spesifikasi :</p>
+<p style="text-align: justify;"><strong>Disk space: </strong>1GB | <strong>Domain hosting: </strong>1 | <strong>Monthly traffic: </strong>10GB | <strong>Subdomains: </strong>0 | <strong>Email accounts: </strong>0 | <strong>FTP accounts: </strong>1 | <strong>MySQL databases: </strong>1</p>
+<p style="text-align: justify;"><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f44d.png" alt="👍" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Salah satu hosting yang mapan</p>
+<p style="text-align: justify;"><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f44d.png" alt="👍" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Penyediaan bandwith yang baik</p>
+<p style="text-align: justify;"><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f44e.png" alt="👎" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Tidak ada satu klik instalasi</p>
+<p style="text-align: justify;"><img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f44e.png" alt="👎" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Tidak ada akun email ataupun subdomain</p>
+<p style="text-align: justify;"><a href="https://www.000webhost.com/">000Webhost</a> adalah penyedia hosting gratis yang dimiliki dan dioperasikan oleh Hostinger. <a href="https://www.000webhost.com/">000Webhost </a>telah berdiri kurang lebih 10 tahun yang lalu. Mempunyai jutaan penguna, <a href="https://www.000webhost.com/">000Webhost</a> menjadi salah satu perusahaan hosting gratis terbesar didunia. Tapi sangat disayangkan ditahun 2015, <a href="https://www.000webhost.com/">000Webhost</a> menjadi sasaran peretas, lebih dari 13,5 juta akun di curi, sejak peristiwa itu <a href="https://www.000webhost.com/">000Webhost</a> berbenah dalam segi pengamanan.</p>
+<p style="text-align: justify;">Satu hal lagi <a href="https://www.000webhost.com/">000Webhost</a> tidak menyediakan SSL, yang agak mengherankan tidak adanya subdomain padahal hampir semua hosting gratis menyediakannya, tidak ada akun email, dan tidak ada ticket untuk dukungan, jadi anda harus melalui forum.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://nmbayu.github.io/wordpress/2019/12/12/web-hosting-gratis/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
